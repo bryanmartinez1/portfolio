@@ -1,0 +1,10 @@
+.projectsPage {
+    width: 100%;
+    margin: 0;
+}
+
+.cardHolder {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 150px);
+    justify-content: space-around;
+}

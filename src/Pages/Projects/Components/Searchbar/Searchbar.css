@@ -1,0 +1,29 @@
+.searchbar {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    border-radius: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    align-items: center;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.searchIcon {
+    height: 25px;
+}
+
+.clearIcon {
+    height: 15px;
+    cursor: pointer;
+}
+
+.searchInput {
+    height: 25px;
+    border: none;
+    outline: none;
+    flex: 1;
+}

@@ -1,0 +1,34 @@
+.resumePage {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+
+li {
+    word-break: break-word;
+    overflow-wrap: break-word;
+}
+
+.navigation {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    min-height: 50px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.sectionLink {
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+
+.sectionLink:hover {
+    font-weight: bold;
+}

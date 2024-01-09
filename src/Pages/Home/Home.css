@@ -1,0 +1,24 @@
+.home {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.myPic {
+    border-radius: 50%;
+    width: 100%;
+    max-width: 250px;
+    height: fit-content;
+    background-color: bisque;
+}
+
+.about {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    align-items: flex-start;
+    font-weight: normal;
+    min-width: 20px;
+}
