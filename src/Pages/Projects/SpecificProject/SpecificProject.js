@@ -17,6 +17,12 @@ export default function SpecificProject() {
       />
       <p>{projectsJSON[projectID].date}</p>
       <p className="type">{projectsJSON[projectID].type}</p>
+      <h2 className="secondHeading">Description</h2>
+      <ul className="unorderedList">
+        {projectsJSON[projectID].other.map((info) => (
+          <l>{info}</l>
+        ))}
+      </ul>
       <h2 className="secondHeading">Tools</h2>
       <ul className="unorderedList">
         {projectsJSON[projectID].toolsList.map((tool) => (
@@ -42,12 +48,6 @@ export default function SpecificProject() {
       ) : (
         <></>
       )}
-      <h2 className="secondHeading">Description</h2>
-      <ul className="unorderedList">
-        {projectsJSON[projectID].other.map((info) => (
-          <l>{info}</l>
-        ))}
-      </ul>
       <br />
     </div>
   );

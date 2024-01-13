@@ -15,6 +15,7 @@ import youtubeImage from "./Images/youtube.png";
 import ee221Image from "./Images/ee221.png";
 import ee322Image from "./Images/ee322.png";
 import ee425Image from "./Images/ee425.png";
+import ee457Image from "./Images/ee457.png";
 
 const projectsJSON = [
   {
@@ -207,8 +208,8 @@ const projectsJSON = [
       "Electric",
       "LTSpice",
     ],
-    link: [],
-    date: "2022",
+    link: [{ name: "CCNY Website", href: "https://www.ccny.cuny.edu/" }],
+    date: "July 2019 - May 2024",
     type: "School",
     image: ccnyImage,
     other: [
@@ -353,8 +354,27 @@ const projectsJSON = [
     type: "School",
     image: ee425Image,
     other: [
-      "Group Project for CSC 59866 & CSC 59867",
-      "Apart of Zahn Competition and CREATE Competition",
+      "Design of logic circuits; TTL, MOS, ECL. Design of flip-flops and memories at the transistor level. Design of analog-to-digital and digital-to-analog converters, sample and hold circuits, and timing circuits. Interconnecting logic gates using transmission lines.",
+    ],
+  },
+  {
+    index: "18",
+    name: "Digital Integrated Circuits",
+    toolsList: ["LTSpice", "Electric"],
+    link: [
+      {
+        name: "CCNY Website",
+        href: "https://www.ccny.cuny.edu/",
+      },
+      { name: "Project 1", href: "https://www.google.com/" },
+      { name: "Project 2", href: "https://www.google.com/" },
+      { name: "Project 3", href: "https://www.google.com/" },
+    ],
+    date: "Fall 2023",
+    type: "School",
+    image: ee457Image,
+    other: [
+      "Design of logic circuits; TTL, MOS, ECL. Design of flip-flops and memories at the transistor level. Design of analog-to-digital and digital-to-analog converters, sample and hold circuits, and timing circuits. Interconnecting logic gates using transmission lines.",
     ],
   },
 ];
