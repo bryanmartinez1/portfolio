@@ -20,7 +20,6 @@ const projectsJSON = [
   {
     index: "0",
     name: "Inclusify",
-    tools: "Javascript, React, AmazonS3, Firebase",
     link: [
       { name: "GitHub", href: "https://github.com/Team7Inclusify/inclusify" },
       {
@@ -33,51 +32,45 @@ const projectsJSON = [
       },
     ],
     date: "August 2023 - May 2024",
-    info: (
-      <>
-        <ul>
-          <li>Group Project for CSC 59866 & CSC 59867</li>
-          <li>Apart of Zahn Competition and CREATE Competition</li>
-        </ul>
-      </>
-    ),
     type: "School",
     image: inclusifyImage,
+    other: [
+      "Group Project for CSC 59866 & CSC 59867",
+      "Apart of Zahn Competition and CREATE Competition",
+    ],
+    toolsList: ["Javascript", "React", "Firebase", "AmazonS3"],
   },
   {
     index: "1",
     name: "WrestleKnow",
-    tools: "Javascript, React, Parse Back4App",
+    toolsList: ["Javascript", "React", "Parse Back4App"],
     link: [
       { name: "GitHub", href: "https://github.com/bryanmartinez1/WrestleKnow" },
     ],
     date: "2023 -  2024",
-    info: <></>,
     type: "Personal",
     image: wrestleknowImage,
+    other: ["Personal project"],
   },
   {
     index: "2",
     name: "Parsetagram",
-    tools: "Java, Parse Back4App",
+    toolsList: ["Java", "Parse Back4App"],
     link: [
       { name: "GitHub", href: "https://github.com/bryanmartinez1/Instagram" },
     ],
     date: "2022",
-    info: (
-      <ul>
-        <li>Android App using Java</li>
-        <li>A mock Instgram app using Parse Back4App as the backend</li>
-        <li>Users can take pictures to upload to feed</li>
-      </ul>
-    ),
     type: "School",
     image: instagramImage,
+    other: [
+      "Group Project for CSC 59866 & CSC 59867",
+      "Apart of Zahn Competition and CREATE Competition",
+    ],
   },
   {
     index: "3",
     name: "Lasso",
-    tools: "Javascript, React, Back4App",
+    toolsList: ["Javascript", "React", "Back4App"],
     link: [
       { name: "GitHub", href: "https://github.com/bryanmartinez1/Lasso" },
       {
@@ -86,37 +79,30 @@ const projectsJSON = [
       },
     ],
     date: "2022",
-    info: <></>,
     type: "School",
     image: lassoImage,
+    other: [
+      "Group Project for CSC 59866 & CSC 59867",
+      "Apart of Zahn Competition and CREATE Competition",
+    ],
   },
   {
     index: "4",
     name: "Atlassian Software Engineer Intern",
-    tools: ["Javascript, Typescript, Python"],
+    toolsList: ["Javascript", "Typescript", "Python"],
     link: [],
     date: "May 2023 - August 2023",
-    info: (
-      <ul>
-        <li>
-          Adapted a legacy feature to new visualizations and further adapted for
-          more visualization types. Provided additional features and changes to
-          visualization types and dashboard.
-        </li>
-        <li>
-          Completed development process, including attended stand ups, design
-          reviews, wrote spikes, conversed with designers to provide better user
-          experience
-        </li>
-      </ul>
-    ),
     type: "Internship",
     image: atlassianImage,
+    other: [
+      "Group Project for CSC 59866 & CSC 59867",
+      "Apart of Zahn Competition and CREATE Competition",
+    ],
   },
   {
     index: "5",
     name: "Google STEP Intern",
-    tools: "C++, Rust",
+    toolsList: ["C++", "Rust"],
     link: [
       {
         name: "Fuchsia Google Open Source ",
@@ -124,62 +110,60 @@ const projectsJSON = [
       },
     ],
     date: "May 2021 - August 2021",
-    info: (
-      <ul>
-        <li>
-          12-week internship program on the open-source Fuchsia Operating System
-        </li>
-        <li>
-          Developed a debugging tool that would aid developers with Fuchsia
-          Driver Development
-        </li>
-        <li>
-          Completed entire development process, including writing design docs,
-          implementation, and going through design reviews
-        </li>
-      </ul>
-    ),
     type: "Internship",
     image: googleImage,
+    other: [
+      "Group Project for CSC 59866 & CSC 59867",
+      "Apart of Zahn Competition and CREATE Competition",
+    ],
   },
   {
     index: "6",
     name: "Rank",
-    tools: "Javascript, React",
+    toolsList: ["Javascript", "React"],
     link: [{ name: "GitHub", href: "https://github.com/bryanmartinez1/rank" }],
     date: "May 2023 - December 2023",
-    info: <></>,
     type: "Personal",
     image: rankImage,
+    other: [
+      "Group Project for CSC 59866 & CSC 59867",
+      "Apart of Zahn Competition and CREATE Competition",
+    ],
   },
   {
     index: "7",
     name: "My Ship Sails",
-    tools: "C++, Python",
+    toolsList: ["C++", "Python"],
     link: [
       { name: "GitHub", href: "https://github.com/bryanmartinez1/myshipsails" },
     ],
     date: "2019",
-    info: <></>,
     type: "School",
     image: myshipsailsImage,
+    other: [
+      "Group Project for CSC 59866 & CSC 59867",
+      "Apart of Zahn Competition and CREATE Competition",
+    ],
   },
   {
     index: "8",
     name: "GPA Calculator",
-    tools: "Java, Back4App",
+    toolsList: ["Java", "Back4App"],
     link: [
       { name: "GitHub", href: "https://github.com/bryanmartinez1/myshipsails" },
     ],
     date: "2022",
-    info: <></>,
     type: "School",
     image: gpaCalculatorImage,
+    other: [
+      "Group Project for CSC 59866 & CSC 59867",
+      "Apart of Zahn Competition and CREATE Competition",
+    ],
   },
   {
     index: "9",
     name: "SimpleTweet",
-    tools: "Java, Twitter REST API",
+    toolsList: ["Java", "Twitter REST API"],
     link: [
       {
         name: "GitHub",
@@ -187,192 +171,124 @@ const projectsJSON = [
       },
     ],
     date: "2022",
-    info: (
-      <ul>
-        <li>Android App using Java</li>
-        <li>Using Twiiter REST API</li>
-        <li>
-          Built a Twitter client that supports viewing a twitter timeline and
-          composing a new tweet
-        </li>
-      </ul>
-    ),
     type: "School",
     image: twitterImage,
+    other: [
+      "Group Project for CSC 59866 & CSC 59867",
+      "Apart of Zahn Competition and CREATE Competition",
+    ],
   },
   {
     index: "10",
     name: "Flixster",
-    tools: "Java, Movie Database API",
+    toolsList: ["Java", "Movie Database API"],
     link: [
       { name: "GitHub", href: "https://github.com/bryanmartinez1/Flixster" },
     ],
     date: "2022",
-    info: (
-      <ul>
-        <li>Android App programmed in Java</li>
-        <li>Users browse movies available in The Movie Database API</li>
-      </ul>
-    ),
     type: "School",
     image: flixsterImage,
+    other: [
+      "Group Project for CSC 59866 & CSC 59867",
+      "Apart of Zahn Competition and CREATE Competition",
+    ],
   },
   {
     index: "11",
     name: "CCNY Major Related Courses",
-    tools:
-      "C++, C, Java, Python, JavaScript, Assembly, MatLab, Electric, LTSpice",
+    toolsList: [
+      "C++",
+      "C",
+      "Java",
+      "Python",
+      "JavaScript",
+      "Assembly",
+      "MatLab",
+      "Electric",
+      "LTSpice",
+    ],
     link: [],
     date: "2022",
-    info: (
-      <>
-        <h3>Computer Science</h3>
-        <ul>
-          <li>
-            CSC 103 - <i>Introduction to Computer Programming</i>
-          </li>
-          <li>
-            CSC 104 - <i>Discrete Structures 1 </i>
-          </li>
-          <li>
-            CSC 212 - <i>Data Structures 1</i>
-          </li>
-          <li>
-            CSC 221 - <i>Software Design Lab</i>
-          </li>
-          <li>
-            CSC 220 - <i>Algorithms</i>
-          </li>
-          <li>
-            CSC 210 - <i>Assembly Programming</i>
-          </li>
-          <li>
-            CSC 332 - <i>Operating Systems</i>
-          </li>
-          <li>
-            CSC 322 - <i>Software Engineering</i>
-          </li>
-          <li>
-            CSC 342 - <i>Computer Organization</i>
-          </li>
-          <li>
-            CSC 343 - <i>Computer Organization Lab</i>
-          </li>
-          <li>
-            CSC 301 - <i>Scientific Programming (In Progress)</i>
-          </li>
-          <li>
-            CSC 447 - <i>Introduction to Machine Learning (In Progress)</i>
-          </li>
-          <li>
-            CSC 59866 - <i>Senior Project 1</i>
-          </li>
-          <li>
-            CSC 59867 - <i>Senior Project 2 (In Progress)</i>
-          </li>
-          <li>
-            CodePath - <i>Android Development</i>
-          </li>
-        </ul>
-        <h3>Electrical Engineering</h3>
-        <ul>
-          <li>
-            ENGR 101 - <i>Engineering Design</i>
-          </li>
-          <li>
-            ENGR 103 - <i>Computer Aided Analysis Engineers</i>
-          </li>
-          <li>
-            ENGR 204 - <i>Electrical Circuits</i>
-          </li>
-          <li>
-            ENGR 276 - <i>Engineering Economics</i>
-          </li>
-          <li>
-            EE 205 - <i>Linear Systems Analysis 1</i>
-          </li>
-          <li>
-            EE 306 - <i>Linear Systems Analysis 2</i>
-          </li>
-          <li>
-            EE 221 - <i>EE Lab 1</i>
-          </li>
-          <li>
-            EE 322 - <i>EE Lab 2</i>
-          </li>
-          <li>
-            EE 425 - <i>Computer Engineering Lab</i>
-          </li>
-          <li>
-            EE 210 - <i>Switching Systems</i>
-          </li>
-          <li>
-            EE 311 - <i>Probability and Statistics</i>
-          </li>
-          <li>
-            EE 241 - <i>Electronics 1</i>
-          </li>
-          <li>
-            EE 312 - <i>Communications Theory</i>
-          </li>
-          <li>
-            EE 457 - <i>Digital Integrated Circuits</i>
-          </li>
-          <li>
-            EE 330 - <i>Electromagnetics (In Progress)</i>
-          </li>
-        </ul>
-      </>
-    ),
     type: "School",
     image: ccnyImage,
+    other: [
+      <h3>Computer Science</h3>,
+      "CSC 103 - Introduction to Computer Programming",
+      "CSC 104 - Discrete Structures 1",
+      "CSC 212 - Data Structures 1",
+      "CSC 221 - Software Design Lab",
+      "CSC 220 - Algorithms",
+      "CSC 210 - Assembly Programming",
+      "CSC 332 - Operating Systems",
+      "CSC 322 - Software Engineering",
+      "CSC 342 - Computer Organization",
+      "CSC 343 - Computer Organization Lab",
+      "CSC 301 - Scientific Programming (In Progress)",
+      "CSC 447 - Introduction to Machine Learning (In Progress)",
+      "CSC 59866 - Senior Project 1",
+      "CSC 59867 - Senior Project 2 (In Progress)",
+      "CodePath - Android Development",
+      <h3>Electrical Engineering</h3>,
+      "ENGR 101 - Engineering Design",
+      "ENGR 103 - Computer Aided Analysis Engineers",
+      "ENGR 204 - Electrical Circuits",
+      "ENGR 276 - Engineering Economics",
+      "EE 205 - Linear Systems Analysis 1",
+      "EE 306 - Linear Systems Analysis 2",
+      "EE 221 - EE Lab 1",
+      "EE 322 - EE Lab 2",
+      "EE 425 - Computer Engineering Lab",
+      "EE 210 - Switching Systems",
+      "EE 311 - Probability and Statistics",
+      "EE 241 - Electronics 1",
+      "EE 312 - Communications Theory",
+      "EE 457 - Digital Integrated Circuits",
+      "EE 330 - Electromagnetics (In Progress)",
+    ],
   },
   {
     index: "12",
     name: "Atlassian Software Engineer New Grad",
-    tools: "TBD",
+    toolsList: ["TBD"],
     link: [],
     date: "Starting July 2024",
-    info: (
-      <ul>
-        <li>TBD</li>
-      </ul>
-    ),
     type: "Work",
     image: atlassianImage,
+    other: [
+      "Group Project for CSC 59866 & CSC 59867",
+      "Apart of Zahn Competition and CREATE Competition",
+    ],
   },
   {
     index: "13",
     name: "Personal Portfolio",
-    tools: "JavaScript, React",
+    toolsList: ["JavaScript", "React"],
     link: [],
     date: "January 2024",
-    info: (
-      <ul>
-        <li>TBD</li>
-      </ul>
-    ),
     type: "Personal",
     image: portfolioImage,
+    other: [
+      "Group Project for CSC 59866 & CSC 59867",
+      "Apart of Zahn Competition and CREATE Competition",
+    ],
   },
   {
     index: "14",
     name: "Youtube Channel",
-    tools: "TBD",
+    toolsList: ["TBD"],
     link: [],
     date: "TBD",
-    info: (
-      <ul>
-        <li>TBD</li>
-      </ul>
-    ),
     type: "Personal",
     image: youtubeImage,
+    other: [
+      "Group Project for CSC 59866 & CSC 59867",
+      "Apart of Zahn Competition and CREATE Competition",
+    ],
   },
   {
     index: "15",
     name: "Electrical Engineering Lab 1",
-    tools: "Mutlisim, LabView",
+    toolsList: ["Mutlisim', 'LabView"],
     link: [
       {
         name: "CCNY Website",
@@ -389,25 +305,16 @@ const projectsJSON = [
       { name: "Experiment 7", href: "https://www.google.com/" },
     ],
     date: "Spring 2022",
-    info: (
-      <ul>
-        <li>
-          CCNY Course Description: "Experiments and design problems on material
-          drawn from the electrical engineering curriculum. (ENGR 20400, EE
-          2100, EE 24100, EE34200). Test and measurement instruments, Virtual
-          instruments and computer instrumentation, Electric and electronic
-          circuits. Transient and frequency response, Logic circuits, Discrete
-          circuits, Operational amplifiers."
-        </li>
-      </ul>
-    ),
     type: "School",
     image: ee221Image,
+    other: [
+      "CCNY Course Description: Experiments and design problems on material drawn from the electrical engineering curriculum. (ENGR 20400, EE 2100, EE 24100, EE34200). Test and measurement instruments, Virtual instruments and computer instrumentation, Electric and electronic circuits. Transient and frequency response, Logic circuits, Discrete circuits, Operational amplifiers",
+    ],
   },
   {
     index: "16",
     name: "Electrical Engineering Lab 2",
-    tools: "Fall 2022",
+    toolsList: ["TBD"],
     link: [
       {
         name: "CCNY Website",
@@ -422,25 +329,14 @@ const projectsJSON = [
       { name: "Experiment 7", href: "https://www.google.com/" },
     ],
     date: "TBD",
-    info: (
-      <ul>
-        <li>
-          CCNY Course Description: "Experiments and design problems on material
-          drawn from the electrical engineering curriculum. (ENGR 20400, EE
-          2100, EE 24100, EE34200). Test and measurement instruments, Virtual
-          instruments and computer instrumentation, Electric and electronic
-          circuits. Transient and frequency response, Logic circuits, Discrete
-          circuits, Operational amplifiers."
-        </li>
-      </ul>
-    ),
     type: "School",
     image: ee322Image,
+    other: [""],
   },
   {
     index: "17",
     name: "Computer Engineering Lab",
-    tools: "TBD",
+    toolsList: ["TBD"],
     link: [
       {
         name: "CCNY Website",
@@ -454,20 +350,12 @@ const projectsJSON = [
       { name: "Experiment 6", href: "https://www.google.com/" },
     ],
     date: "Fall 2023",
-    info: (
-      <ul>
-        <li>
-          CCNY Course Description: "Introduction to the operation and
-          applications of microcomputers and design experiments in computer
-          interface engineering utilizing a microprocessor based computer.
-          Design projects include computer input-output device selection,
-          program interrupt, on-line control, direct memory access, and circular
-          input-output buffer."
-        </li>
-      </ul>
-    ),
     type: "School",
     image: ee425Image,
+    other: [
+      "Group Project for CSC 59866 & CSC 59867",
+      "Apart of Zahn Competition and CREATE Competition",
+    ],
   },
 ];
 

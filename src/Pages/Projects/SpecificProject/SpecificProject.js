@@ -18,12 +18,16 @@ export default function SpecificProject() {
       <p>{projectsJSON[projectID].date}</p>
       <p className="type">{projectsJSON[projectID].type}</p>
       <h2 className="secondHeading">Tools</h2>
-      <div className="descriptions">{projectsJSON[projectID].tools}</div>
+      <ul className="unorderedList">
+        {projectsJSON[projectID].toolsList.map((tool) => (
+          <l>{tool}</l>
+        ))}
+      </ul>
       {projectsJSON[projectID].link.length ? (
         <>
           <h2 className="secondHeading">Links</h2>
-          <ul>
-            {projectsJSON[projectID].link.map((specificLink, index) => (
+          <ul className="unorderedList">
+            {projectsJSON[projectID].link.map((specificLink) => (
               <a
                 href={specificLink.href}
                 target="_blank"
@@ -39,17 +43,12 @@ export default function SpecificProject() {
         <></>
       )}
       <h2 className="secondHeading">Description</h2>
-      {projectsJSON[projectID].info}
-      {projectsJSON[projectID].preview && (
-        <>
-          <h2 className="secondHeading">Preview</h2>
-          <img
-            src={projectsJSON[projectID].preview}
-            alt="preview"
-            className="preview"
-          />
-        </>
-      )}
+      <ul className="unorderedList">
+        {projectsJSON[projectID].other.map((info) => (
+          <l>{info}</l>
+        ))}
+      </ul>
+      <br />
     </div>
   );
 }

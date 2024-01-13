@@ -1,41 +1,39 @@
 .specificProject {
-    width: 100%;
-    text-align: center;
+  width: 100%;
+  text-align: center;
 }
 
 h1 {
-    color: red;
+  color: red;
 }
 
-ul {
-    list-style: none;
-    text-align: left;
-    font-weight: normal;
+.unorderedList {
+  list-style: none;
+  text-align: left;
+  font-weight: normal;
+  display: flex;
+  flex-direction: column;
 }
 
 .projectImage {
-    max-height: 200px;
-    max-width: 100%;
+  max-height: 200px;
+  max-width: 100%;
 }
 
 .descriptions {
-    font-weight: normal;
-    text-align: left;
+  font-weight: normal;
+  text-align: left;
 }
 
 .secondHeading {
-    text-align: left;
+  text-align: left;
 }
 
 .anchor {
-    text-decoration: underline;
-    color: inherit;
+  text-decoration: underline;
+  color: inherit;
 }
 
 .type {
-    font-weight: normal;
-}
-
-.preview {
-    width: 100%;
+  font-weight: normal;
 }
