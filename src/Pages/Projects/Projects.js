@@ -19,7 +19,18 @@ export default function Projects() {
         {projectsJSON
           .filter((project) =>
             searchResult
-              ? project.name.toLowerCase().includes(searchResult)
+              ? project.name.toLowerCase().includes(searchResult) ||
+                project.type.toLowerCase().includes(searchResult) ||
+                project.toolsList.some(
+                  (tool) =>
+                    typeof tool === "string" &&
+                    tool.toLowerCase().includes(searchResult)
+                ) ||
+                project.description.some(
+                  (desc) =>
+                    typeof desc === "string" &&
+                    desc.toLowerCase().includes(searchResult)
+                )
               : true
           )
           .map((filteredProject, index) => (

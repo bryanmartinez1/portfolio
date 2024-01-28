@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./Accordion.css";
-import more from "../../../Images/more.png";
-import less from "../../../Images/less.png";
+import more from "../Images/more.png";
+import less from "../Images/less.png";
 
 export default function Accordion(props) {
   const [openAccordion, setAccordion] = useState(false);
@@ -18,7 +18,7 @@ export default function Accordion(props) {
           src={openAccordion ? less : more}
           alt="Open Close Accordion"
         />
-        {props.innerheading ? <h4>{props.title}</h4> : <h2>{props.title}</h2>}
+        {props.innerheading ? <h3>{props.title}</h3> : <h2>{props.title}</h2>}
       </div>
       {openAccordion && <div className="content"> {props.content} </div>}
     </div>

@@ -41,9 +41,6 @@ export default function NavbarDropdown() {
           >
             Linkedin
           </p>
-          <p onClick={() => window.open("https://www.youtube.com", "_blank")}>
-            Youtube
-          </p>
         </div>
       )}
     </div>

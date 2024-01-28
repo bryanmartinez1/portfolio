@@ -11,11 +11,13 @@ import rankImage from "./Images/rank.png";
 import twitterImage from "./Images/twitter.png";
 import wrestleknowImage from "./Images/wrestleknow.png";
 import portfolioImage from "./Images/portfolio.png";
-import youtubeImage from "./Images/youtube.png";
-import ee221Image from "./Images/ee221.png";
-import ee322Image from "./Images/ee322.png";
-import ee425Image from "./Images/ee425.png";
-import ee457Image from "./Images/ee457.png";
+import cpeLab from "./Images/cpe_lab.png";
+import eeLab1 from "./Images/ee_lab_1.png";
+import eeLab2 from "./Images/ee_lab_2.png";
+import digital_integrated_circuits from "./Images/digital_integrated_circuit.png";
+import os from "./Images/operating_systems.png";
+import comp_org from "./Images/computer_organization.png";
+import Accordion from "./Components/Accordion";
 
 const projectsJSON = [
   {
@@ -31,27 +33,42 @@ const projectsJSON = [
         name: "E Enhanced Proposal",
         href: "https://docs.google.com/document/d/1nnhVTyV56xkD2O8smajQbh6MKuDPWyjy_tDkxZUoBzg/edit?usp=sharing",
       },
+      {
+        name: "Zahn Venture Incubator Competition Information",
+        href: "https://www.ccny.cuny.edu/zahn/venture-incubator-and-competition",
+      },
+      {
+        name: "Create Competetion Information",
+        href: "https://www.nysid.org/create/guidelines/",
+      },
     ],
-    date: "August 2023 - May 2024",
+    date: "August 2023 - In Progress",
     type: "School",
     image: inclusifyImage,
-    other: [
+    description: [
       "Group Project for CSC 59866 & CSC 59867",
-      "Apart of Zahn Competition and CREATE Competition",
+      "Apart of Zahn Venture Competition",
+      "Apart of the Create Competition",
+      "Inclusify is a web application focused on empowering autistic individuals and other disabled job seekers. Using technologies like REACT for the front-end, and FireBase and AmazonS3 for back-end, and Figma for design, our platform will empower users to connect, share experiences, access various resources, and build their non traditional video resumes with accessible features, fostering a sense of belonging and inclusivity within the autism community and beyond.",
+      "Users will be able to record and create video resumes, interact and contact other users, and view other users' video resumes and profiles",
     ],
     toolsList: ["Javascript", "React", "Firebase", "AmazonS3"],
   },
   {
     index: "1",
     name: "WrestleKnow",
-    toolsList: ["Javascript", "React", "Parse Back4App"],
+    toolsList: ["Javascript", "React", "Parse Back4App", "Firebase"],
     link: [
       { name: "GitHub", href: "https://github.com/bryanmartinez1/WrestleKnow" },
     ],
     date: "2023 -  2024",
     type: "Personal",
     image: wrestleknowImage,
-    other: ["Personal project"],
+    description: [
+      "WrestleKnow is a pro wrestling encyclopedia and social media web app.",
+      "Users can search through a variety of pro wrestling related categories, sign up and login, and publicly and privately converse with other users.",
+      "Originally created with Back4App as a backend, is currently being migrated to use Firebase as the backend",
+    ],
   },
   {
     index: "2",
@@ -63,9 +80,8 @@ const projectsJSON = [
     date: "2022",
     type: "School",
     image: instagramImage,
-    other: [
-      "Group Project for CSC 59866 & CSC 59867",
-      "Apart of Zahn Competition and CREATE Competition",
+    description: [
+      "Individual Project created during my time at the CodePath Android App course in where this app replicates many features that instgram has, using Back4App as the backend",
     ],
   },
   {
@@ -82,9 +98,10 @@ const projectsJSON = [
     date: "2022",
     type: "School",
     image: lassoImage,
-    other: [
-      "Group Project for CSC 59866 & CSC 59867",
-      "Apart of Zahn Competition and CREATE Competition",
+    description: [
+      "Group Project for CSC 322",
+      "Lasso is an e-commerce web app where users can sell or bid for items",
+      "Team consisted of 5 memebers, in where we used the agile method to aid us in communicationg and assinging tasks to create the project",
     ],
   },
   {
@@ -95,9 +112,10 @@ const projectsJSON = [
     date: "May 2023 - August 2023",
     type: "Internship",
     image: atlassianImage,
-    other: [
-      "Group Project for CSC 59866 & CSC 59867",
-      "Apart of Zahn Competition and CREATE Competition",
+    description: [
+      "12 week internship experince with Atlassian",
+      "Adapted a legacy feature to new visualizations and further adapted for more visualization types. Provided additional features and changes to visualization types and dashboard.",
+      "Completed development process, including attended stand ups, design reviews, wrote spikes, conversed with designers to provide better user experience",
     ],
   },
   {
@@ -113,7 +131,7 @@ const projectsJSON = [
     date: "May 2021 - August 2021",
     type: "Internship",
     image: googleImage,
-    other: [
+    description: [
       "Group Project for CSC 59866 & CSC 59867",
       "Apart of Zahn Competition and CREATE Competition",
     ],
@@ -126,9 +144,9 @@ const projectsJSON = [
     date: "May 2023 - December 2023",
     type: "Personal",
     image: rankImage,
-    other: [
-      "Group Project for CSC 59866 & CSC 59867",
-      "Apart of Zahn Competition and CREATE Competition",
+    description: [
+      "Perosdnal project",
+      "User can calculate their GPA, course grade, and QPA",
     ],
   },
   {
@@ -141,9 +159,11 @@ const projectsJSON = [
     date: "2019",
     type: "School",
     image: myshipsailsImage,
-    other: [
-      "Group Project for CSC 59866 & CSC 59867",
-      "Apart of Zahn Competition and CREATE Competition",
+    description: [
+      "Individaul school project fo CSC 103 (Intro to C++)",
+      "Card game where users goes up against 3 CPUs in a card game",
+      "The way top win the game is by ensuring that all the cards in your hand have the same suits",
+      "The CPUs aim to win before the user or the other CPUS",
     ],
   },
   {
@@ -156,9 +176,11 @@ const projectsJSON = [
     date: "2022",
     type: "School",
     image: gpaCalculatorImage,
-    other: [
-      "Group Project for CSC 59866 & CSC 59867",
-      "Apart of Zahn Competition and CREATE Competition",
+    description: [
+      "Group Project for CodePath Android App Course",
+      "Team concisted of 3 memeber in total",
+      "Andoid App in where user can calculate their grade for a course or thier GPA",
+      "Using Back4App as a backend, users can access their account from any device with this android app and thier login info",
     ],
   },
   {
@@ -174,9 +196,9 @@ const projectsJSON = [
     date: "2022",
     type: "School",
     image: twitterImage,
-    other: [
-      "Group Project for CSC 59866 & CSC 59867",
-      "Apart of Zahn Competition and CREATE Competition",
+    description: [
+      "Individual Project for CodePath Android App Course",
+      "Using Twitter API, an android app, where users can access thier twitter account and tweet from it",
     ],
   },
   {
@@ -189,9 +211,9 @@ const projectsJSON = [
     date: "2022",
     type: "School",
     image: flixsterImage,
-    other: [
-      "Group Project for CSC 59866 & CSC 59867",
-      "Apart of Zahn Competition and CREATE Competition",
+    description: [
+      "Individual Project for CodePath Android App Course",
+      "Using Movie Database API, users can use this android app to see more information on movies found on the database",
     ],
   },
   {
@@ -204,47 +226,67 @@ const projectsJSON = [
       "Python",
       "JavaScript",
       "Assembly",
+      "Mips",
+      "VHDL",
       "MatLab",
       "Electric",
       "LTSpice",
+      "Firebase",
+      "Back4App",
     ],
     link: [{ name: "CCNY Website", href: "https://www.ccny.cuny.edu/" }],
     date: "July 2019 - May 2024",
     type: "School",
     image: ccnyImage,
-    other: [
-      <h3>Computer Science</h3>,
-      "CSC 103 - Introduction to Computer Programming",
-      "CSC 104 - Discrete Structures 1",
-      "CSC 212 - Data Structures 1",
-      "CSC 221 - Software Design Lab",
-      "CSC 220 - Algorithms",
-      "CSC 210 - Assembly Programming",
-      "CSC 332 - Operating Systems",
-      "CSC 322 - Software Engineering",
-      "CSC 342 - Computer Organization",
-      "CSC 343 - Computer Organization Lab",
-      "CSC 301 - Scientific Programming (In Progress)",
-      "CSC 447 - Introduction to Machine Learning (In Progress)",
-      "CSC 59866 - Senior Project 1",
-      "CSC 59867 - Senior Project 2 (In Progress)",
-      "CodePath - Android Development",
-      <h3>Electrical Engineering</h3>,
-      "ENGR 101 - Engineering Design",
-      "ENGR 103 - Computer Aided Analysis Engineers",
-      "ENGR 204 - Electrical Circuits",
-      "ENGR 276 - Engineering Economics",
-      "EE 205 - Linear Systems Analysis 1",
-      "EE 306 - Linear Systems Analysis 2",
-      "EE 221 - EE Lab 1",
-      "EE 322 - EE Lab 2",
-      "EE 425 - Computer Engineering Lab",
-      "EE 210 - Switching Systems",
-      "EE 311 - Probability and Statistics",
-      "EE 241 - Electronics 1",
-      "EE 312 - Communications Theory",
-      "EE 457 - Digital Integrated Circuits",
-      "EE 330 - Electromagnetics (In Progress)",
+    description: [
+      <Accordion
+        innerheading={true}
+        title="Computer Science"
+        content={
+          <ul>
+            <li>CSC 103 - Introduction to Computer Programming</li>
+            <li>CSC 104 - Discrete Structures 1</li>
+            <li>CSC 212 - Data Structures 1</li>
+            <li>CSC 221 - Software Design Lab</li>
+            <li>CSC 220 - Algorithms</li>
+            <li>CSC 210 - Assembly Programming</li>
+            <li>CSC 332 - Operating Systems</li>
+            <li>CSC 322 - Software Engineering</li>
+            <li>CSC 342 - Computer Organization</li>
+            <li>CSC 343 - Computer Organization Lab</li>
+            <li>CSC 301 - Scientific Programming (In Progress)</li>
+            <li>CSC 447 - Introduction to Machine Learning (In Progress)</li>
+            <li>CSC 59866 - Senior Project 1</li>
+            <li>CSC 59867 - Senior Project 2 (In Progress)</li>
+            <li>CodePath - Android Development</li>
+            <br />
+          </ul>
+        }
+      />,
+      <Accordion
+        innerheading={true}
+        title="Electrical Engineering"
+        content={
+          <ul>
+            <li>ENGR 101 - Engineering Design</li>
+            <li>ENGR 103 - Computer Aided Analysis Engineers</li>
+            <li>ENGR 204 - Electrical Circuits</li>
+            <li>ENGR 276 - Engineering Economics</li>
+            <li>EE 205 - Linear Systems Analysis 1</li>
+            <li>EE 306 - Linear Systems Analysis 2</li>
+            <li>EE 221 - EE Lab 1</li>
+            <li>EE 322 - EE Lab 2</li>
+            <li>EE 425 - Computer Engineering Lab</li>
+            <li>EE 210 - Switching Systems</li>
+            <li>EE 311 - Probability and Statistics</li>
+            <li>EE 241 - Electronics 1</li>
+            <li>EE 312 - Communications Theory</li>
+            <li>EE 457 - Digital Integrated Circuits</li>
+            <li>EE 330 - Electromagnetics (In Progress)</li>
+            <br />
+          </ul>
+        }
+      />,
     ],
   },
   {
@@ -255,41 +297,28 @@ const projectsJSON = [
     date: "Starting July 2024",
     type: "Work",
     image: atlassianImage,
-    other: [
-      "Group Project for CSC 59866 & CSC 59867",
-      "Apart of Zahn Competition and CREATE Competition",
-    ],
+    description: ["Starting July 2024"],
   },
   {
     index: "13",
     name: "Personal Portfolio",
-    toolsList: ["JavaScript", "React"],
-    link: [],
+    toolsList: ["JavaScript", "React", "Firebase"],
+    link: [
+      { name: "Link 1", href: "https://bryanmartinezportfolio.web.app/" },
+      {
+        name: "Link 2",
+        href: "https://bryanmartinezportfolio.firebaseapp.com/",
+      },
+    ],
     date: "January 2024",
     type: "Personal",
     image: portfolioImage,
-    other: [
-      "Group Project for CSC 59866 & CSC 59867",
-      "Apart of Zahn Competition and CREATE Competition",
-    ],
+    description: ["Personal Portfolio using Firebase to host the site"],
   },
   {
     index: "14",
-    name: "Youtube Channel",
-    toolsList: ["TBD"],
-    link: [],
-    date: "TBD",
-    type: "Personal",
-    image: youtubeImage,
-    other: [
-      "Group Project for CSC 59866 & CSC 59867",
-      "Apart of Zahn Competition and CREATE Competition",
-    ],
-  },
-  {
-    index: "15",
     name: "Electrical Engineering Lab 1",
-    toolsList: ["Mutlisim', 'LabView"],
+    toolsList: ["MutliSim", "LabView", "MatLab"],
     link: [
       {
         name: "CCNY Website",
@@ -307,15 +336,15 @@ const projectsJSON = [
     ],
     date: "Spring 2022",
     type: "School",
-    image: ee221Image,
-    other: [
-      "CCNY Course Description: Experiments and design problems on material drawn from the electrical engineering curriculum. (ENGR 20400, EE 2100, EE 24100, EE34200). Test and measurement instruments, Virtual instruments and computer instrumentation, Electric and electronic circuits. Transient and frequency response, Logic circuits, Discrete circuits, Operational amplifiers",
+    image: eeLab1,
+    description: [
+      "CCNY Course Description: Experiments and design problems on material drawn from the electrical engineering curriculum. Test and measurement instruments, Virtual instruments and computer instrumentation, Electric and electronic circuits. Transient and frequency response, Logic circuits, Discrete circuits, Operational amplifiers",
     ],
   },
   {
-    index: "16",
+    index: "15",
     name: "Electrical Engineering Lab 2",
-    toolsList: ["TBD"],
+    toolsList: ["MutliSim", "LabView", "MatLab"],
     link: [
       {
         name: "CCNY Website",
@@ -331,11 +360,13 @@ const projectsJSON = [
     ],
     date: "TBD",
     type: "School",
-    image: ee322Image,
-    other: [""],
+    image: eeLab2,
+    description: [
+      "CCNY Course Description: Experiments and design problems on material drawn from the electrical engineering curriculum. Test and measurement instruments, Virtual instruments and computer instrumentation, Electric and electronic circuits. Transient and frequency response, Logic circuits, Discrete circuits, Operational amplifiers",
+    ],
   },
   {
-    index: "17",
+    index: "16",
     name: "Computer Engineering Lab",
     toolsList: ["TBD"],
     link: [
@@ -351,14 +382,15 @@ const projectsJSON = [
       { name: "Experiment 6", href: "https://www.google.com/" },
     ],
     date: "Fall 2023",
-    type: "School",
-    image: ee425Image,
-    other: [
-      "Design of logic circuits; TTL, MOS, ECL. Design of flip-flops and memories at the transistor level. Design of analog-to-digital and digital-to-analog converters, sample and hold circuits, and timing circuits. Interconnecting logic gates using transmission lines.",
+
+    description: [
+      "Introduction to the operation and applications of microcomputers and design experiments in computer interface engineering utilizing a microprocessor based computer. Design projects include computer input-output device selection, program interrupt, on-line control, direct memory access, and circular input-output buffer",
     ],
+    type: "School",
+    image: cpeLab,
   },
   {
-    index: "18",
+    index: "17",
     name: "Digital Integrated Circuits",
     toolsList: ["LTSpice", "Electric"],
     link: [
@@ -372,9 +404,47 @@ const projectsJSON = [
     ],
     date: "Fall 2023",
     type: "School",
-    image: ee457Image,
-    other: [
+    image: digital_integrated_circuits,
+    description: [
       "Design of logic circuits; TTL, MOS, ECL. Design of flip-flops and memories at the transistor level. Design of analog-to-digital and digital-to-analog converters, sample and hold circuits, and timing circuits. Interconnecting logic gates using transmission lines.",
+    ],
+  },
+  {
+    index: "18",
+    name: "Operating Systems",
+    toolsList: ["C"],
+    link: [
+      {
+        name: "CCNY Website",
+        href: "https://www.ccny.cuny.edu/",
+      },
+      { name: "Lab 1", href: "https://www.google.com/" },
+    ],
+    date: "Spring 2022",
+    type: "School",
+    image: os,
+    description: [
+      "Overview of computer organization. Interrupts. Operating systems objectives and functions. Hardware protection mechanisms, dual mode operation. System calls. The evolution of operating systems. Process representation and control. Uniprocessor scheduling. Process synchronization: critical section problem, synchronization mechanisms, algorithms, language constructs, classical synchronization problems: issues of safety, liveness, and fairness. Deadlocks. Memory management and virtual memory. File management. I/O management and disk scheduling.",
+    ],
+  },
+  {
+    index: "19",
+    name: "Computer Organization",
+    toolsList: ["Mips", "VHDL", "C++"],
+    link: [
+      {
+        name: "CCNY Website",
+        href: "https://www.ccny.cuny.edu/",
+      },
+      { name: "Project 1", href: "https://www.google.com/" },
+      { name: "Project 2", href: "https://www.google.com/" },
+      { name: "Project 3", href: "https://www.google.com/" },
+    ],
+    date: "Spring 2023",
+    type: "School",
+    image: comp_org,
+    description: [
+      "This course provides computer science and computer engineering students with an in depth look at computer architecture and the hardware/software interface. The major topics are: computer abstractions and technology; the role of performance and measuring performance; SPEC. computer arithmetic; machine language: a comparative analysis of instruction sets of current processors using debuggers, simulators and by the partial reverse engineering of executables. The processor: data path and control; RISC versus CISC; design, implementation (using VHDL), and verification (in simulation) of a simplified RISC processor using CAD tools. Enhancing performance with pipelining. Memory hierarchy, cache, virtual memory, performance issues. interfacing processors and peripherals; PCI chipset. Overview of multiprocessors, grid computing",
     ],
   },
 ];

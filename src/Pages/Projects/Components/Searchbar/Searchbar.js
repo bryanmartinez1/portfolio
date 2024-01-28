@@ -11,7 +11,7 @@ export default function Searchbar({ onSearch }) {
   useEffect(() => {
     onSearch(search);
     console.log(search);
-  }, [search]);
+  }, [search, onSearch]);
 
   return (
     <div className="searchbar">

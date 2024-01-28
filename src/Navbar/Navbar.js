@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from "react";
 import "./Navbar.css";
 import { useNavigate } from "react-router-dom";
-import youtubeImg from "../Images/youtube.png";
 import githubImg from "../Images/github.png";
 import linkedinImg from "../Images/linkedin.png";
 import NavbarDropdown from "./Components/NavbarDropdown/NavbarDropdown";
@@ -58,12 +57,6 @@ export default function Navbar() {
                 "_blank"
               )
             }
-          />
-          <img
-            className="imgLinks"
-            src={youtubeImg}
-            alt="Youtube"
-            onClick={() => window.open("https://www.youtube.com", "_blank")}
           />
         </div>
       ) : (

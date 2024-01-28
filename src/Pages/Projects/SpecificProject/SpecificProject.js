@@ -19,16 +19,14 @@ export default function SpecificProject() {
       <p className="type">{projectsJSON[projectID].type}</p>
       <h2 className="secondHeading">Description</h2>
       <ul className="unorderedList">
-        {projectsJSON[projectID].other.map((info) => (
-          <l>{info}</l>
+        {projectsJSON[projectID].description.map((info) => (
+          <>
+            <l>{info}</l>
+            {info instanceof String && <br />}
+          </>
         ))}
       </ul>
-      <h2 className="secondHeading">Tools</h2>
-      <ul className="unorderedList">
-        {projectsJSON[projectID].toolsList.map((tool) => (
-          <l>{tool}</l>
-        ))}
-      </ul>
+      <br />
       {projectsJSON[projectID].link.length ? (
         <>
           <h2 className="secondHeading">Links</h2>
@@ -48,6 +46,13 @@ export default function SpecificProject() {
       ) : (
         <></>
       )}
+      <br />
+      <h2 className="secondHeading">Tools</h2>
+      <ul className="unorderedList">
+        {projectsJSON[projectID].toolsList.map((tool) => (
+          <l>{tool}</l>
+        ))}
+      </ul>
       <br />
     </div>
   );

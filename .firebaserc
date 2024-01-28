@@ -1,5 +1,17 @@
 {
   "projects": {
     "default": "bryanmartinezportfolio"
-  }
+  },
+  "targets": {
+    "bryanmartinezportfolio": {
+      "hosting": {
+        "bryanrmartinez": [
+          "bryanmartinezportfolio",
+          "https://bryanrmartinez.firebaseapp.com",
+          "https://bryanrmartinez.web.app"
+        ]
+      }
+    }
+  },
+  "etags": {}
 }
