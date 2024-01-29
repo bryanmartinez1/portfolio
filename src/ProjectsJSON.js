@@ -242,6 +242,7 @@ const projectsJSON = [
       <Accordion
         innerheading={true}
         title="Computer Science"
+        isOpen={true}
         content={
           <ul>
             <li>CSC 103 - Introduction to Computer Programming</li>
@@ -266,6 +267,7 @@ const projectsJSON = [
       <Accordion
         innerheading={true}
         title="Electrical Engineering"
+        isOpen={true}
         content={
           <ul>
             <li>ENGR 101 - Engineering Design</li>

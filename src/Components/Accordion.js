@@ -4,7 +4,7 @@ import more from "../Images/more.png";
 import less from "../Images/less.png";
 
 export default function Accordion(props) {
-  const [openAccordion, setAccordion] = useState(false);
+  const [openAccordion, setAccordion] = useState(props.isOpen);
 
   const toggleAccordion = () => {
     setAccordion(!openAccordion);
