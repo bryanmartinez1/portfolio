@@ -44,10 +44,12 @@ h1 {
   display: flex;
   flex-direction: column;
   align-items: center;
+  text-align: center;
 }
 
 .folder_img {
   width: 100%;
+  max-width: 500px;
 }
 
 .title404 {
