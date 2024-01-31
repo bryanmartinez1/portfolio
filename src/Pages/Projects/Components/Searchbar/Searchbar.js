@@ -10,7 +10,6 @@ export default function Searchbar({ onSearch }) {
 
   useEffect(() => {
     onSearch(search);
-    console.log(search);
   }, [search, onSearch]);
 
   return (
