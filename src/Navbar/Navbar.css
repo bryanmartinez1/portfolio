@@ -44,6 +44,31 @@
     cursor: pointer;
 }
 
+.imgLinks:hover {
+    background-color: #8d8d8d;
+}
+
+.imgLinksNight:hover {
+    background-color: whitesmoke;
+}
+
+.imgGithub:hover {
+    border-radius: 100%;
+    background-color: #8d8d8d;
+}
+
+.imgLinkedin {
+    border-radius: 5px;
+}
+
+.imgLinkedin:hover {
+    background-color: #414141;
+}
+
+.imgLinkedinNight:hover {
+    background-color: whitesmoke;
+}
+
 .navbar-content {
     display: flex;
     flex-direction: row;

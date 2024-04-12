@@ -1,7 +1,7 @@
 import React from "react";
 import "./Home.css";
 import bryan from "../../Images/bryan.png";
-import about from "../../AboutJSON.js";
+import about from "../../Data/AboutJSON.js";
 import HomeLink from "./Component/HomeLink.js";
 
 export default function Home({ nightMode }) {

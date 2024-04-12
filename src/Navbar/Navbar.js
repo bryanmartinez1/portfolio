@@ -5,7 +5,7 @@ import githubImg from "../Images/github.png";
 import githubNightImg from "../Images/github_night.png";
 import linkedinImg from "../Images/linkedin.png";
 import NavbarDropdown from "./Components/NavbarDropdown/NavbarDropdown";
-import about from "../AboutJSON.js";
+import about from "../Data/AboutJSON.js";
 import ToggleSwitch from "./Components/ToggleSwitch/ToggleSwitch.js";
 
 export default function Navbar({ nightMode, toggleNightMode }) {
@@ -43,7 +43,7 @@ export default function Navbar({ nightMode, toggleNightMode }) {
               Resume
             </div>
             <img
-              className="imgLinks"
+              className={`imgLinks imgGithub ${nightMode && "imgLinksNight"}`}
               src={!nightMode ? githubImg : githubNightImg}
               alt="Github"
               onClick={() =>
@@ -51,7 +51,9 @@ export default function Navbar({ nightMode, toggleNightMode }) {
               }
             />
             <img
-              className="imgLinks"
+              className={`imgLinks imgLinkedin ${
+                nightMode && "imgLinksNight imgLinkedinNight"
+              }`}
               src={linkedinImg}
               alt="Linkedin"
               onClick={() =>

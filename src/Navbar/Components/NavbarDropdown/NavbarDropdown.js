@@ -26,10 +26,17 @@ export default function NavbarDropdown({ nightMode }) {
             nightMode && "dropdown-content-night"
           }`}
         >
-          <p onClick={() => navigate("/")}>About</p>
-          <p onClick={() => navigate("/projects")}>Projects</p>
-          <p onClick={() => navigate("/resume")}>Resume</p>
+          <p className="navBarPara" onClick={() => navigate("/")}>
+            About
+          </p>
+          <p className="navBarPara" onClick={() => navigate("/projects")}>
+            Projects
+          </p>
+          <p className="navBarPara" onClick={() => navigate("/resume")}>
+            Resume
+          </p>
           <p
+            className="navBarPara"
             onClick={() =>
               window.open("https://github.com/bryanmartinez1", "_blank")
             }
@@ -37,6 +44,7 @@ export default function NavbarDropdown({ nightMode }) {
             Github
           </p>
           <p
+            className="navBarPara"
             onClick={() =>
               window.open(
                 "https://www.linkedin.com/in/bryan-martinez-10a377221/",

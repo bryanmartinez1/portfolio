@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./Projects.css";
-import projectsJSON from "../../ProjectsJSON.js";
+import projectsJSON from "../../Data/ProjectsJSON.js";
 import Card from "./Components/Card/Card";
 import Searchbar from "./Components/Searchbar/Searchbar";
 

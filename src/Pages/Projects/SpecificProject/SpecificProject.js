@@ -1,7 +1,7 @@
 import React from "react";
 import { useParams } from "react-router-dom";
 import "./SpecificProject.css";
-import projectsJSON from "../../../ProjectsJSON";
+import projectsJSON from "../../../Data/ProjectsJSON";
 import empty_folder from "../../../Images/empty_folder.png";
 
 export default function SpecificProject({ nightMode }) {
