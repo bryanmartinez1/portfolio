@@ -1,9 +1,10 @@
 import React, { useState } from "react";
 import "./NavbarDropdown.css";
 import navbardropdown from "../../../Images/navbar_dropdown.png";
+import navbardropdownwhite from "../../../Images/navbar_dropdown_white.png";
 import { useNavigate } from "react-router-dom";
 
-export default function NavbarDropdown() {
+export default function NavbarDropdown({ nightMode }) {
   const [isNavbarDropdownOpen, setNavbarDropdown] = useState(false);
   const navigate = useNavigate();
 
@@ -15,12 +16,16 @@ export default function NavbarDropdown() {
     <div className="navbar-dropdown-container">
       <img
         className="three-lines"
-        src={navbardropdown}
+        src={!nightMode ? navbardropdown : navbardropdownwhite}
         alt="Dropdown"
         onClick={toggleNavbarDropdown}
       />
       {isNavbarDropdownOpen && (
-        <div className="dropdown-content">
+        <div
+          className={`dropdown-content ${
+            nightMode && "dropdown-content-night"
+          }`}
+        >
           <p onClick={() => navigate("/")}>About</p>
           <p onClick={() => navigate("/projects")}>Projects</p>
           <p onClick={() => navigate("/resume")}>Resume</p>

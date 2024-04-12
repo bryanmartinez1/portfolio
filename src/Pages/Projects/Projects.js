@@ -4,7 +4,7 @@ import projectsJSON from "../../ProjectsJSON.js";
 import Card from "./Components/Card/Card";
 import Searchbar from "./Components/Searchbar/Searchbar";
 
-export default function Projects() {
+export default function Projects({ nightMode }) {
   const [searchResult, setSearchResult] = useState(null);
 
   // Callback function to receive the search result
@@ -14,7 +14,7 @@ export default function Projects() {
 
   return (
     <div className="projectsPage">
-      <Searchbar onSearch={handleSearch} />
+      <Searchbar onSearch={handleSearch} nightMode={nightMode} />
       <div className="cardHolder">
         {projectsJSON
           .filter((project) =>
@@ -34,7 +34,12 @@ export default function Projects() {
               : true
           )
           .map((filteredProject, index) => (
-            <Card key={index} cardJSON={filteredProject} />
+            <Card
+              key={index}
+              index={index}
+              cardJSON={filteredProject}
+              nightMode={nightMode}
+            />
           ))}
       </div>
     </div>

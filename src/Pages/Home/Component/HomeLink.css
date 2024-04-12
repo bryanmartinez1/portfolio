@@ -9,8 +9,18 @@
     margin-bottom: 5px;
     margin-left: 15px;
     margin-right: 15px;
+    width: 100%;
+    max-width: 800px;
 }
 
 .homeLink:hover{
     background: linear-gradient(to right, #bbafd8 , #e5666a  );
+}
+
+.homeLinkNight {
+    background: linear-gradient(to right, #0092CC , #FF3333 );
+}
+
+.homeLinkNight:hover {
+    background: linear-gradient(to right, #087099 , #CC3333 );
 }

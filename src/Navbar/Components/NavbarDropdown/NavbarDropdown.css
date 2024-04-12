@@ -19,11 +19,15 @@
     z-index: 1;
     text-align: center;
 }
+
+.dropdown-content-night {
+    background-color: #414141;
+}
   
 .dropdown-content p {
     cursor: pointer;
 }
 .dropdown-content p:hover {
-    background-color: gainsboro;
+    background-color: gray;
 }
   

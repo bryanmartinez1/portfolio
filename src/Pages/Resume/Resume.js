@@ -2,29 +2,45 @@ import React from "react";
 import Accordion from "../../Components/Accordion";
 import "./Resume.css";
 
-export default function Resume() {
+export default function Resume({ nightMode }) {
   return (
     <div className="resumePage">
       <div className="navigation">
-        <div className="sectionLink" href="#contact">
+        <div
+          className={`sectionLink ${nightMode && "sectionLinkNight"}`}
+          href="#contact"
+        >
           Contact
         </div>
-        <div className="sectionLink" href="#education">
+        <div
+          className={`sectionLink ${nightMode && "sectionLinkNight"}`}
+          href="#education"
+        >
           Education
         </div>
-        <a className="sectionLink" href="#technicalSkills">
+        <a
+          className={`sectionLink ${nightMode && "sectionLinkNight"}`}
+          href="#technicalSkills"
+        >
           Techical Skills
         </a>
-        <a className="sectionLink" href="#experience">
+        <a
+          className={`sectionLink ${nightMode && "sectionLinkNight"}`}
+          href="#experience"
+        >
           Experience
         </a>
-        <a className="sectionLink" href="#technicalProjects">
+        <a
+          className={`sectionLink ${nightMode && "sectionLinkNight"}`}
+          href="#technicalProjects"
+        >
           Technical Projects
         </a>
       </div>
       <Accordion
         id="contact"
         title="Contact"
+        nightMode={nightMode}
         content={
           <ul>
             <li>Email: bryanmartinez2401@gmail.com</li>
@@ -34,17 +50,18 @@ export default function Resume() {
       <Accordion
         id="education"
         title="Education"
+        nightMode={nightMode}
         content={
           <ul>
             <li>Currently Enrolled in City College of New York</li>
             <li>Major: Computer Engineering</li>
             <li>Expected Graduation Date: Spring 2024</li>
-            <li>Current GPA: 2.902</li>
             <li>Relevant Courses Taken</li>
             <ul>
               <li>
                 Algorithms, Data Structures, Operating Systems, Software
-                Engineering, Assembly Programming, Computer Organizations
+                Engineering, Assembly Programming, Computer Organizations,
+                Machine Learning, Scientific Programming
               </li>
             </ul>
           </ul>
@@ -53,6 +70,7 @@ export default function Resume() {
       <Accordion
         id="technicalSkills"
         title="Techical Skills"
+        nightMode={nightMode}
         content={
           <ul>
             <li>
@@ -64,11 +82,13 @@ export default function Resume() {
       />
       <Accordion
         id="experience"
+        nightMode={nightMode}
         title="Experience"
         content={
           <>
             <Accordion
               innerheading={true}
+              nightMode={nightMode}
               title="Atlassian, Software Engineer, Starting July 2024"
               content={
                 <ul>
@@ -78,6 +98,7 @@ export default function Resume() {
             />
             <Accordion
               innerheading={true}
+              nightMode={nightMode}
               title="Atlassian, Software Engineer Intern, May 2023 - August 2023"
               content={
                 <ul>
@@ -96,6 +117,7 @@ export default function Resume() {
               }
             />
             <Accordion
+              nightMode={nightMode}
               innerheading={true}
               title="Google, STEP Intern, May 2021 - August 2021"
               content={
@@ -121,6 +143,7 @@ export default function Resume() {
         }
       />
       <Accordion
+        nightMode={nightMode}
         id="technicalProjects"
         title="Techical Projects"
         content={
@@ -146,6 +169,7 @@ export default function Resume() {
               }
             />
             <Accordion
+              nightMode={nightMode}
               innerheading={true}
               title="Personal Project, WrestleKnow, 2023 - 2024"
               content={
@@ -165,6 +189,7 @@ export default function Resume() {
               }
             />
             <Accordion
+              nightMode={nightMode}
               innerheading={true}
               title="CodePath Android Course, Parsetagram, 2022"
               content={
@@ -185,6 +210,7 @@ export default function Resume() {
               }
             />
             <Accordion
+              nightMode={nightMode}
               innerheading={true}
               title="CSC 322, Software Engineering, Lasso - Ecommerce Webapp, 2022"
               content={

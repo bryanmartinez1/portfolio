@@ -4,7 +4,7 @@ import "./SpecificProject.css";
 import projectsJSON from "../../../ProjectsJSON";
 import empty_folder from "../../../Images/empty_folder.png";
 
-export default function SpecificProject() {
+export default function SpecificProject({ nightMode }) {
   const { projectID } = useParams();
 
   return (
@@ -13,7 +13,7 @@ export default function SpecificProject() {
         <div className="specificProject">
           <h1>{projectsJSON[projectID].name}</h1>
           <img
-            className="projectImage"
+            className={`projectImage ${nightMode && "projectImageNight"}`}
             src={projectsJSON[projectID].image}
             alt="Project"
           />

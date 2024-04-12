@@ -11,7 +11,10 @@ export default function Card(props) {
   const navigate = useNavigate();
 
   return (
-    <div class="card" onClick={() => navigate(`${props.cardJSON.index}`)}>
+    <div
+      class={`card ${props.nightMode && "card-night"}`}
+      onClick={() => navigate(`${props.index}`)}
+    >
       <img className="cardIMG" src={props.cardJSON.image} alt="Avatar" />
       <div class="cardContainer">{props.cardJSON.name}</div>
     </div>

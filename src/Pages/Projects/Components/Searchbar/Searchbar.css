@@ -12,6 +12,10 @@
     padding-right: 5px;
 }
 
+.searchbar-night {
+    background-color: #414141;
+}
+
 .searchIcon {
     height: 25px;
 }
@@ -26,4 +30,9 @@
     border: none;
     outline: none;
     flex: 1;
+}
+
+.searchInput-night {
+    background-color: #414141;
+    color: white;
 }
