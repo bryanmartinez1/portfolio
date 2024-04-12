@@ -43,7 +43,9 @@ export default function Navbar({ nightMode, toggleNightMode }) {
               Resume
             </div>
             <img
-              className={`imgLinks imgGithub ${nightMode && "imgLinksNight"}`}
+              className={`imgLinks imgGithub ${
+                nightMode && "imgLinksNight imgGithubNight"
+              }`}
               src={!nightMode ? githubImg : githubNightImg}
               alt="Github"
               onClick={() =>

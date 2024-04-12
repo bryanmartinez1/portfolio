@@ -54,7 +54,7 @@
 
 .imgGithub:hover {
     border-radius: 100%;
-    background-color: #8d8d8d;
+    background-color: #121212;
 }
 
 .imgLinkedin {
@@ -67,6 +67,11 @@
 
 .imgLinkedinNight:hover {
     background-color: whitesmoke;
+}
+
+.imgGithubNight:hover {
+    border-radius: 100%;
+    background-color: white;
 }
 
 .navbar-content {
