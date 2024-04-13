@@ -87,6 +87,7 @@ const projectsJSON = [
       "Users can search through a variety of pro wrestling related categories, sign up and login, and publicly and privately converse with other users.",
       "Originally created with Back4App as a backend, is currently being migrated to use Firebase as the backend",
     ],
+    grayBackground: true,
   },
   {
     name: "Parsetagram",
@@ -119,6 +120,7 @@ const projectsJSON = [
       "Lasso is an e-commerce web app where users can sell or bid for items",
       "Team consisted of 5 memebers, in where we used the agile method to aid us in communicationg and assinging tasks to create the project",
     ],
+    grayBackground: true,
   },
   {
     name: "Atlassian Software Engineer Intern",
@@ -161,6 +163,7 @@ const projectsJSON = [
       "Perosdnal project",
       "User can calculate their GPA, course grade, and QPA",
     ],
+    grayBackground: true,
   },
   {
     name: "My Ship Sails",
@@ -193,6 +196,7 @@ const projectsJSON = [
       "Andoid App in where user can calculate their grade for a course or thier GPA",
       "Using Back4App as a backend, users can access their account from any device with this android app and thier login info",
     ],
+    grayBackground: true,
   },
   {
     name: "SimpleTweet",
@@ -322,6 +326,7 @@ const projectsJSON = [
     type: "Personal",
     image: portfolioImage,
     description: ["Personal Portfolio using Firebase to host the site"],
+    grayBackground: true,
   },
   {
     name: "Electrical Engineering Lab 1",
@@ -347,6 +352,7 @@ const projectsJSON = [
     description: [
       "CCNY Course Description: Experiments and design problems on material drawn from the electrical engineering curriculum. Test and measurement instruments, Virtual instruments and computer instrumentation, Electric and electronic circuits. Transient and frequency response, Logic circuits, Discrete circuits, Operational amplifiers",
     ],
+    grayBackground: true,
   },
   {
     name: "Electrical Engineering Lab 2",
@@ -412,6 +418,7 @@ const projectsJSON = [
     description: [
       "Design of logic circuits; TTL, MOS, ECL. Design of flip-flops and memories at the transistor level. Design of analog-to-digital and digital-to-analog converters, sample and hold circuits, and timing circuits. Interconnecting logic gates using transmission lines.",
     ],
+    grayBackground: true,
   },
   {
     name: "Operating Systems",
@@ -448,6 +455,7 @@ const projectsJSON = [
     description: [
       "This course provides computer science and computer engineering students with an in depth look at computer architecture and the hardware/software interface. The major topics are: computer abstractions and technology; the role of performance and measuring performance; SPEC. computer arithmetic; machine language: a comparative analysis of instruction sets of current processors using debuggers, simulators and by the partial reverse engineering of executables. The processor: data path and control; RISC versus CISC; design, implementation (using VHDL), and verification (in simulation) of a simplified RISC processor using CAD tools. Enhancing performance with pipelining. Memory hierarchy, cache, virtual memory, performance issues. interfacing processors and peripherals; PCI chipset. Overview of multiprocessors, grid computing",
     ],
+    grayBackground: true,
   },
   {
     name: "Intro to Machine Learning",
@@ -582,6 +590,7 @@ const projectsJSON = [
     type: "Personal",
     image: algorithmsDS,
     description: ["Algorithms and Data Structures"],
+    grayBackground: true,
   },
   {
     name: "Computer Vision",
@@ -596,6 +605,7 @@ const projectsJSON = [
     type: "Personal",
     image: comp_vision,
     description: ["Computer Vision"],
+    grayBackground: true,
   },
   {
     name: "Embedded Systems",
@@ -610,6 +620,7 @@ const projectsJSON = [
     type: "Personal",
     image: embeddedSystems,
     description: ["Computer Vision"],
+    grayBackground: true,
   },
   {
     name: "Complier",
@@ -666,6 +677,7 @@ const projectsJSON = [
     type: "Personal",
     image: games,
     description: ["Computer Vision"],
+    grayBackground: true,
   },
   {
     name: "AEW",
@@ -680,6 +692,7 @@ const projectsJSON = [
     type: "Personal",
     image: aew,
     description: ["Computer Vision"],
+    grayBackground: true,
   },
   {
     name: "WWE",
@@ -722,6 +735,7 @@ const projectsJSON = [
     type: "Personal",
     image: mta,
     description: ["Computer Vision"],
+    grayBackground: true,
   },
   {
     name: "Web Scraper",
@@ -736,6 +750,7 @@ const projectsJSON = [
     type: "Personal",
     image: scraper,
     description: ["Computer Vision"],
+    grayBackground: true,
   },
 ];
 

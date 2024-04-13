@@ -13,7 +13,11 @@ export default function SpecificProject({ nightMode }) {
         <div className="specificProject">
           <h1>{projectsJSON[projectID].name}</h1>
           <img
-            className={`projectImage ${nightMode && "projectImageNight"}`}
+            className={`projectImage ${
+              nightMode &&
+              projectsJSON[projectID].grayBackground &&
+              "projectImageNight"
+            }`}
             src={projectsJSON[projectID].image}
             alt="Project"
           />

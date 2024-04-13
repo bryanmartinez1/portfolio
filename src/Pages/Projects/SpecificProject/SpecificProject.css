@@ -19,10 +19,12 @@ h1 {
   max-height: 200px;
   max-width: 100%;
   border-radius: 5px;
+  box-sizing: border-box;
+  padding: 5px;
 }
 
 .projectImageNight {
-  background-color: #414141;
+  background-color: #888888;
 }
 
 .descriptions {
