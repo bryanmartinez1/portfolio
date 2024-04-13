@@ -42,6 +42,7 @@ const projectsJSON = [
   {
     name: "Inclusify",
     link: [
+      { name: "Inclusify", href: "https://inclusify-b4ca3.web.app/" },
       { name: "GitHub", href: "https://github.com/Team7Inclusify/inclusify" },
       {
         name: "Create Proposal",
