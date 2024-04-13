@@ -8,11 +8,12 @@ h1 {
 }
 
 .unorderedList {
-  list-style: none;
   text-align: left;
   font-weight: normal;
   display: flex;
   flex-direction: column;
+  list-style-type: disc;
+  padding-left: 40px;
 }
 
 .projectImage {

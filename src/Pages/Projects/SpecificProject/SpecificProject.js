@@ -26,10 +26,7 @@ export default function SpecificProject({ nightMode }) {
           <h2 className="secondHeading">Description</h2>
           <ul className="unorderedList">
             {projectsJSON[projectID].description.map((info, key) => (
-              <>
-                <l>{info}</l>
-                {info instanceof String && <br />}
-              </>
+              <li>{info}</li>
             ))}
           </ul>
           <br />
@@ -38,14 +35,16 @@ export default function SpecificProject({ nightMode }) {
               <h2 className="secondHeading">Links</h2>
               <ul className="unorderedList">
                 {projectsJSON[projectID].link.map((specificLink) => (
-                  <a
-                    href={specificLink.href}
-                    target="_blank"
-                    className="anchor"
-                    rel="noreferrer"
-                  >
-                    {specificLink.name} <br />
-                  </a>
+                  <li>
+                    <a
+                      href={specificLink.href}
+                      target="_blank"
+                      className="anchor"
+                      rel="noreferrer"
+                    >
+                      {specificLink.name} <br />
+                    </a>
+                  </li>
                 ))}
               </ul>
             </>
@@ -56,7 +55,7 @@ export default function SpecificProject({ nightMode }) {
           <h2 className="secondHeading">Tools</h2>
           <ul className="unorderedList">
             {projectsJSON[projectID].toolsList.map((tool) => (
-              <l>{tool}</l>
+              <li>{tool}</li>
             ))}
           </ul>
           <br />

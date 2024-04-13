@@ -230,7 +230,7 @@ const projectsJSON = [
     ],
   },
   {
-    name: "CCNY Major Related Courses",
+    name: "Computer Science",
     toolsList: [
       "C++",
       "C",
@@ -240,9 +240,6 @@ const projectsJSON = [
       "Assembly",
       "Mips",
       "VHDL",
-      "MatLab",
-      "Electric",
-      "LTSpice",
       "Firebase",
       "Back4App",
     ],
@@ -251,56 +248,21 @@ const projectsJSON = [
     type: "School",
     image: ccnyImage,
     description: [
-      <Accordion
-        innerheading={true}
-        title="Computer Science"
-        isOpen={true}
-        content={
-          <ul>
-            <li>CSC 103 - Introduction to Computer Programming</li>
-            <li>CSC 104 - Discrete Structures 1</li>
-            <li>CSC 212 - Data Structures 1</li>
-            <li>CSC 221 - Software Design Lab</li>
-            <li>CSC 220 - Algorithms</li>
-            <li>CSC 210 - Assembly Programming</li>
-            <li>CSC 332 - Operating Systems</li>
-            <li>CSC 322 - Software Engineering</li>
-            <li>CSC 342 - Computer Organization</li>
-            <li>CSC 343 - Computer Organization Lab</li>
-            <li>CSC 301 - Scientific Programming</li>
-            <li>CSC 447 - Introduction to Machine Learning</li>
-            <li>CSC 59866 - Senior Project 1</li>
-            <li>CSC 59867 - Senior Project 2 (In Progress)</li>
-            <li>CodePath - Android Development</li>
-            <br />
-          </ul>
-        }
-      />,
-      <Accordion
-        innerheading={true}
-        title="Electrical Engineering"
-        isOpen={true}
-        content={
-          <ul>
-            <li>ENGR 101 - Engineering Design</li>
-            <li>ENGR 103 - Computer Aided Analysis Engineers</li>
-            <li>ENGR 204 - Electrical Circuits</li>
-            <li>ENGR 276 - Engineering Economics</li>
-            <li>EE 205 - Linear Systems Analysis 1</li>
-            <li>EE 306 - Linear Systems Analysis 2</li>
-            <li>EE 221 - EE Lab 1</li>
-            <li>EE 322 - EE Lab 2</li>
-            <li>EE 425 - Computer Engineering Lab</li>
-            <li>EE 210 - Switching Systems</li>
-            <li>EE 311 - Probability and Statistics</li>
-            <li>EE 241 - Electronics 1</li>
-            <li>EE 312 - Communications Theory</li>
-            <li>EE 457 - Digital Integrated Circuits</li>
-            <li>EE 330 - Electromagnetics (In Progress)</li>
-            <br />
-          </ul>
-        }
-      />,
+      "CSC 103 - Introduction to Computer Programming",
+      "CSC 104 - Discrete Structures 1",
+      "CSC 212 - Data Structures 1",
+      "CSC 221 - Software Design Lab",
+      "CSC 220 - Algorithms",
+      "CSC 210 - Assembly Programming",
+      "CSC 332 - Operating Systems",
+      "CSC 322 - Software Engineering",
+      "CSC 342 - Computer Organization",
+      "CSC 343 - Computer Organization Lab",
+      "CSC 301 - Scientific Programming",
+      "CSC 447 - Introduction to Machine Learning",
+      "CSC 59866 - Senior Project 1",
+      "CSC 59867 - Senior Project 2 (In Progress)",
+      "CodePath - Android Development",
     ],
   },
   {
@@ -751,6 +713,31 @@ const projectsJSON = [
     image: scraper,
     description: ["Computer Vision"],
     grayBackground: true,
+  },
+  {
+    name: "Electrical Engineering",
+    toolsList: ["C++", "Assembly", "MatLab", "Electric", "LTSpice"],
+    link: [{ name: "CCNY Website", href: "https://www.ccny.cuny.edu/" }],
+    date: "July 2019 - May 2024",
+    type: "School",
+    image: ccnyImage,
+    description: [
+      "ENGR 101 - Engineering Design",
+      "ENGR 103 - Computer Aided Analysis Engineers",
+      "ENGR 204 - Electrical Circuits",
+      "ENGR 276 - Engineering Economics",
+      "EE 205 - Linear Systems Analysis 1",
+      "EE 306 - Linear Systems Analysis 2",
+      "EE 221 - EE Lab 1",
+      "EE 322 - EE Lab 2",
+      "EE 425 - Computer Engineering Lab",
+      "EE 210 - Switching Systems",
+      "EE 311 - Probability and Statistics",
+      "EE 241 - Electronics 1",
+      "EE 312 - Communications Theory",
+      "EE 457 - Digital Integrated Circuits",
+      "EE 330 - Electromagnetics (In Progress)",
+    ],
   },
 ];
 
