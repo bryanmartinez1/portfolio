@@ -17,7 +17,6 @@ import eeLab2 from "../Images/ee_lab_2.png";
 import digital_integrated_circuits from "../Images/digital_integrated_circuit.png";
 import os from "../Images/operating_systems.png";
 import comp_org from "../Images/computer_organization.png";
-import Accordion from "../Components/Accordion";
 import machineLearning from "../Images/machine_learning.png";
 import numericalAnalysis from "../Images/numericalAnalysis.png";
 import youtube from "../Images/youtube.png";
@@ -37,6 +36,7 @@ import kaggle from "../Images/kaggle.png";
 import mta from "../Images/MTA.png";
 import scraper from "../Images/scraper.png";
 import wwe from "../Images/wwe.png";
+import wrestleMania from "../Images/WrestleMania.png";
 
 const projectsJSON = [
   {
@@ -125,7 +125,7 @@ const projectsJSON = [
   {
     name: "Atlassian Software Engineer Intern",
     toolsList: ["Javascript", "Typescript", "Python"],
-    link: [],
+    link: [{ name: "Atlassian", href: "https://www.atlassian.com/" }],
     date: "May 2023 - August 2023",
     type: "Internship",
     image: atlassianImage,
@@ -268,7 +268,7 @@ const projectsJSON = [
   {
     name: "Atlassian Software Engineer New Grad",
     toolsList: ["TBD"],
-    link: [],
+    link: [{ name: "Atlassian", href: "https://www.atlassian.com/" }],
     date: "Starting July 2024",
     type: "Work",
     image: atlassianImage,
@@ -738,6 +738,21 @@ const projectsJSON = [
       "EE 457 - Digital Integrated Circuits",
       "EE 330 - Electromagnetics (In Progress)",
     ],
+  },
+  {
+    name: "WrestleMania",
+    toolsList: ["Excel"],
+    link: [
+      {
+        name: "Project 1",
+        href: "https://www.youtube.com/",
+      },
+    ],
+    date: "",
+    type: "Personal",
+    image: wrestleMania,
+    description: ["WrestleMania"],
+    grayBackground: true,
   },
 ];
 
