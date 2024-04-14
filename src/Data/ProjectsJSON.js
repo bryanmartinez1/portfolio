@@ -40,6 +40,7 @@ import wrestleMania from "../Images/WrestleMania.png";
 
 const projectsJSON = [
   {
+    index: 0,
     name: "Inclusify",
     link: [
       { name: "Inclusify", href: "https://inclusify-b4ca3.web.app/" },
@@ -74,6 +75,7 @@ const projectsJSON = [
     toolsList: ["Javascript", "React", "Firebase", "AmazonS3"],
   },
   {
+    index: 1,
     name: "WrestleKnow",
     toolsList: ["Javascript", "React", "Parse Back4App", "Firebase"],
     link: [
@@ -90,6 +92,7 @@ const projectsJSON = [
     grayBackground: true,
   },
   {
+    index: 2,
     name: "Parsetagram",
     toolsList: ["Java", "Parse Back4App"],
     link: [
@@ -103,6 +106,7 @@ const projectsJSON = [
     ],
   },
   {
+    index: 3,
     name: "Lasso",
     toolsList: ["Javascript", "React", "Back4App"],
     link: [
@@ -123,6 +127,7 @@ const projectsJSON = [
     grayBackground: true,
   },
   {
+    index: 4,
     name: "Atlassian Software Engineer Intern",
     toolsList: ["Javascript", "Typescript", "Python"],
     link: [{ name: "Atlassian", href: "https://www.atlassian.com/" }],
@@ -136,6 +141,7 @@ const projectsJSON = [
     ],
   },
   {
+    index: 5,
     name: "Google STEP Intern",
     toolsList: ["C++", "Rust"],
     link: [
@@ -153,6 +159,7 @@ const projectsJSON = [
     ],
   },
   {
+    index: 6,
     name: "Rank",
     toolsList: ["Javascript", "React"],
     link: [{ name: "GitHub", href: "https://github.com/bryanmartinez1/rank" }],
@@ -166,6 +173,7 @@ const projectsJSON = [
     grayBackground: true,
   },
   {
+    index: 7,
     name: "My Ship Sails",
     toolsList: ["C++", "Python"],
     link: [
@@ -182,6 +190,7 @@ const projectsJSON = [
     ],
   },
   {
+    index: 8,
     name: "GPA Calculator",
     toolsList: ["Java", "Back4App"],
     link: [
@@ -199,6 +208,7 @@ const projectsJSON = [
     grayBackground: true,
   },
   {
+    index: 9,
     name: "SimpleTweet",
     toolsList: ["Java", "Twitter REST API"],
     link: [
@@ -216,6 +226,7 @@ const projectsJSON = [
     ],
   },
   {
+    index: 10,
     name: "Flixster",
     toolsList: ["Java", "Movie Database API"],
     link: [
@@ -230,6 +241,7 @@ const projectsJSON = [
     ],
   },
   {
+    index: 11,
     name: "Computer Science",
     toolsList: [
       "C++",
@@ -266,6 +278,7 @@ const projectsJSON = [
     ],
   },
   {
+    index: 12,
     name: "Atlassian Software Engineer New Grad",
     toolsList: ["TBD"],
     link: [{ name: "Atlassian", href: "https://www.atlassian.com/" }],
@@ -275,6 +288,7 @@ const projectsJSON = [
     description: ["Starting July 2024"],
   },
   {
+    index: 13,
     name: "Personal Portfolio",
     toolsList: ["JavaScript", "React", "Firebase"],
     link: [
@@ -291,6 +305,7 @@ const projectsJSON = [
     grayBackground: true,
   },
   {
+    index: 14,
     name: "Electrical Engineering Lab 1",
     toolsList: ["MutliSim", "LabView", "MatLab"],
     link: [
@@ -317,6 +332,7 @@ const projectsJSON = [
     grayBackground: true,
   },
   {
+    index: 15,
     name: "Electrical Engineering Lab 2",
     toolsList: ["MutliSim", "LabView", "MatLab"],
     link: [
@@ -340,6 +356,7 @@ const projectsJSON = [
     ],
   },
   {
+    index: 16,
     name: "Computer Engineering Lab",
     toolsList: ["TBD"],
     link: [
@@ -363,6 +380,7 @@ const projectsJSON = [
     image: cpeLab,
   },
   {
+    index: 17,
     name: "Digital Integrated Circuits",
     toolsList: ["LTSpice", "Electric"],
     link: [
@@ -383,6 +401,7 @@ const projectsJSON = [
     grayBackground: true,
   },
   {
+    index: 18,
     name: "Operating Systems",
     toolsList: ["C"],
     link: [
@@ -400,6 +419,7 @@ const projectsJSON = [
     ],
   },
   {
+    index: 19,
     name: "Computer Organization",
     toolsList: ["Mips", "VHDL", "C++"],
     link: [
@@ -420,6 +440,7 @@ const projectsJSON = [
     grayBackground: true,
   },
   {
+    index: 20,
     name: "Intro to Machine Learning",
     toolsList: ["Python"],
     link: [
@@ -437,6 +458,7 @@ const projectsJSON = [
     ],
   },
   {
+    index: 21,
     name: "Numerical Analysis",
     toolsList: ["Python"],
     link: [
@@ -454,6 +476,7 @@ const projectsJSON = [
     ],
   },
   {
+    index: 22,
     name: "Youtube Channel",
     toolsList: [],
     link: [
@@ -476,6 +499,7 @@ const projectsJSON = [
     description: ["Youtube Channel"],
   },
   {
+    index: 23,
     name: "Tik Tok",
     toolsList: [],
     link: [
@@ -498,6 +522,7 @@ const projectsJSON = [
     description: ["Tik Tok"],
   },
   {
+    index: 24,
     name: "United",
     toolsList: [],
     link: [
@@ -512,6 +537,7 @@ const projectsJSON = [
     description: ["United"],
   },
   {
+    index: 25,
     name: "Ardino",
     toolsList: [],
     link: [
@@ -526,6 +552,7 @@ const projectsJSON = [
     description: ["United"],
   },
   {
+    index: 26,
     name: "Rust",
     toolsList: ["rust"],
     link: [
@@ -540,6 +567,7 @@ const projectsJSON = [
     description: ["United"],
   },
   {
+    index: 27,
     name: "Algorithms and Data Structures",
     toolsList: [""],
     link: [
@@ -555,6 +583,7 @@ const projectsJSON = [
     grayBackground: true,
   },
   {
+    index: 28,
     name: "Computer Vision",
     toolsList: [""],
     link: [
@@ -570,6 +599,7 @@ const projectsJSON = [
     grayBackground: true,
   },
   {
+    index: 29,
     name: "Embedded Systems",
     toolsList: [""],
     link: [
@@ -585,6 +615,7 @@ const projectsJSON = [
     grayBackground: true,
   },
   {
+    index: 30,
     name: "Complier",
     toolsList: [""],
     link: [
@@ -599,6 +630,7 @@ const projectsJSON = [
     description: ["Computer Vision"],
   },
   {
+    index: 31,
     name: "Data Visualizations",
     toolsList: [""],
     link: [
@@ -613,6 +645,7 @@ const projectsJSON = [
     description: ["Computer Vision"],
   },
   {
+    index: 32,
     name: "Discord Bot",
     toolsList: [""],
     link: [
@@ -627,6 +660,7 @@ const projectsJSON = [
     description: ["Computer Vision"],
   },
   {
+    index: 33,
     name: "Games",
     toolsList: [""],
     link: [
@@ -642,6 +676,7 @@ const projectsJSON = [
     grayBackground: true,
   },
   {
+    index: 34,
     name: "AEW",
     toolsList: [""],
     link: [
@@ -657,6 +692,7 @@ const projectsJSON = [
     grayBackground: true,
   },
   {
+    index: 35,
     name: "WWE",
     toolsList: [""],
     link: [
@@ -671,6 +707,7 @@ const projectsJSON = [
     description: ["Computer Vision"],
   },
   {
+    index: 36,
     name: "Kaggle",
     toolsList: [""],
     link: [
@@ -685,6 +722,7 @@ const projectsJSON = [
     description: ["Computer Vision"],
   },
   {
+    index: 37,
     name: "MTA",
     toolsList: [""],
     link: [
@@ -700,6 +738,7 @@ const projectsJSON = [
     grayBackground: true,
   },
   {
+    index: 38,
     name: "Web Scraper",
     toolsList: [""],
     link: [
@@ -715,6 +754,7 @@ const projectsJSON = [
     grayBackground: true,
   },
   {
+    index: 39,
     name: "Electrical Engineering",
     toolsList: ["C++", "Assembly", "MatLab", "Electric", "LTSpice"],
     link: [{ name: "CCNY Website", href: "https://www.ccny.cuny.edu/" }],
@@ -740,12 +780,13 @@ const projectsJSON = [
     ],
   },
   {
+    index: 40,
     name: "WrestleMania",
     toolsList: ["Excel"],
     link: [
       {
-        name: "Project 1",
-        href: "https://www.youtube.com/",
+        name: "CSV",
+        href: "https://docs.google.com/spreadsheets/d/1agZ2uWGUcWqzN20fYFJfrf34p7OmgneAgG8jp_QrmVs/edit?usp=sharing",
       },
     ],
     date: "",

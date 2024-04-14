@@ -7,16 +7,16 @@ import { useNavigate } from "react-router-dom";
         JSON INFO: name, tools, github, date, info, type, image
         ID
 */
-export default function Card(props) {
+export default function Card({ cardJSON, nightMode }) {
   const navigate = useNavigate();
 
   return (
     <div
-      class={`card ${props.nightMode && "card-night"}`}
-      onClick={() => navigate(`${props.index}`)}
+      class={`card ${nightMode && "card-night"}`}
+      onClick={() => navigate(`${cardJSON.index}`)}
     >
-      <img className="cardIMG" src={props.cardJSON.image} alt="Avatar" />
-      <div class="cardContainer">{props.cardJSON.name}</div>
+      <img className="cardIMG" src={cardJSON.image} alt="Avatar" />
+      <div class="cardContainer">{cardJSON.name}</div>
     </div>
   );
 }
