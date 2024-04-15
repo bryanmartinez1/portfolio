@@ -525,7 +525,7 @@ const projectsJSON = [
   },
   {
     index: 24,
-    name: "United",
+    name: "Manchester United",
     toolsList: [],
     link: [
       {
@@ -797,17 +797,34 @@ const projectsJSON = [
   {
     index: 40,
     name: "WrestleMania",
-    toolsList: ["Excel"],
+    toolsList: ["Sheets", "Python"],
     link: [
       {
-        name: "CSV",
+        name: "Dataset",
         href: "https://docs.google.com/spreadsheets/d/1agZ2uWGUcWqzN20fYFJfrf34p7OmgneAgG8jp_QrmVs/edit?usp=sharing",
       },
+      {
+        name: "Report",
+        href: "https://docs.google.com/document/d/1rMFuvxRnkt7sM-7mUmoe1YDCcUj6xU3DA3prBW2XsW4/edit?usp=sharing",
+      },
+      {
+        name: "Github",
+        href: "https://www.github.com/",
+      },
     ],
-    date: "",
+    date: "In Progress",
     type: "Personal",
     image: wrestleMania,
-    description: ["WrestleMania"],
+    description: [
+      "In this project we aim to do a variety of objectives, including a statistical analysis, interactive dashboard and timeline, and",
+      "Created a WrestleMania Matches Dataset:",
+      <ul>
+        <li>
+          month, day, year, wrestlers, winner, match_type, prize, wm_number,
+          main_event, stipulations, minutes, seconds, venue
+        </li>
+      </ul>,
+    ],
     grayBackground: true,
   },
   {

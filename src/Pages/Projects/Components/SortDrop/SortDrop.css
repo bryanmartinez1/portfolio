@@ -1,0 +1,11 @@
+.sortDropContainer {
+    width: 100px;
+    height: 50px;
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+.sortDropContainerNight {
+    background-color: #414141;
+    color: whitesmoke;
+}
