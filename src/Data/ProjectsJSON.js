@@ -37,6 +37,8 @@ import mta from "../Images/MTA.png";
 import scraper from "../Images/scraper.png";
 import wwe from "../Images/wwe.png";
 import wrestleMania from "../Images/WrestleMania.png";
+import marvel from "../Images/marvel.png";
+import dc_comics from "../Images/dc_comics.png";
 
 const projectsJSON = [
   {
@@ -66,10 +68,10 @@ const projectsJSON = [
     type: "School",
     image: inclusifyImage,
     description: [
+      "Inclusify is a web application focused on empowering autistic individuals and other disabled job seekers. Using technologies like REACT for the front-end, and FireBase and AmazonS3 for back-end, and Figma for design, our platform will empower users to connect, share experiences, access various resources, and build their non traditional video resumes with accessible features, fostering a sense of belonging and inclusivity within the autism community and beyond.",
       "Group Project for CSC 59866 & CSC 59867",
       "Apart of Zahn Venture Competition",
       "Apart of the Create Competition",
-      "Inclusify is a web application focused on empowering autistic individuals and other disabled job seekers. Using technologies like REACT for the front-end, and FireBase and AmazonS3 for back-end, and Figma for design, our platform will empower users to connect, share experiences, access various resources, and build their non traditional video resumes with accessible features, fostering a sense of belonging and inclusivity within the autism community and beyond.",
       "Users will be able to record and create video resumes, interact and contact other users, and view other users' video resumes and profiles",
     ],
     toolsList: ["Javascript", "React", "Firebase", "AmazonS3"],
@@ -607,11 +609,24 @@ const projectsJSON = [
         name: "Project 1",
         href: "https://www.youtube.com/",
       },
+      {
+        name: "Reddit Ideas",
+        href: "https://www.reddit.com/r/embedded/comments/l4mhgo/what_are_some_embedded_hobby_projects_that_look/",
+      },
+      {
+        name: "Youtube Ideas",
+        href: "https://www.youtube.com/watch?v=nEYcwBijI2E",
+      },
     ],
     date: "",
     type: "Personal",
     image: embeddedSystems,
-    description: ["Computer Vision"],
+    description: [
+      "Simple power electronics",
+      "home automation???",
+      "digital clock",
+      "weather station",
+    ],
     grayBackground: true,
   },
   {
@@ -794,6 +809,51 @@ const projectsJSON = [
     image: wrestleMania,
     description: ["WrestleMania"],
     grayBackground: true,
+  },
+  {
+    index: 41,
+    name: "Marvel",
+    toolsList: ["Marvel API"],
+    link: [
+      {
+        name: "Marvel",
+        href: "https://www.marvel.com/",
+      },
+    ],
+    date: "",
+    type: "Personal",
+    image: marvel,
+    description: ["Marvel"],
+  },
+  {
+    index: 42,
+    name: "DC Comics",
+    toolsList: ["IDK"],
+    link: [
+      {
+        name: "DC Comics",
+        href: "https://www.dc.com/",
+      },
+    ],
+    date: "",
+    type: "Personal",
+    image: dc_comics,
+    description: ["DC Comics"],
+  },
+  {
+    index: 43,
+    name: "Google Maps",
+    toolsList: ["Google Maps API"],
+    link: [
+      {
+        name: "Google Maps API",
+        href: "https://www.google.com/maps/",
+      },
+    ],
+    date: "",
+    type: "Personal",
+    image: dc_comics,
+    description: ["DC Comics"],
   },
 ];
 

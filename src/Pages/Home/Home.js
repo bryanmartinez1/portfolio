@@ -31,11 +31,6 @@ export default function Home({ nightMode }) {
           href="/projects/5"
           nightMode={nightMode}
         />
-        <HomeLink
-          title="CCNY Courses"
-          href="/projects/11"
-          nightMode={nightMode}
-        />
         <HomeLink title="Inclusify" href="/projects/0" nightMode={nightMode} />
       </div>
     </div>
