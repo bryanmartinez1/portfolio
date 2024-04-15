@@ -11,6 +11,9 @@ const SortDrop = ({ onChange, nightMode }) => {
       className={`sortDropContainer ${nightMode && "sortDropContainerNight"}`}
       onChange={handleSortChange}
     >
+      <option disabled selected value="">
+        Sort By:
+      </option>
       <option value="None">Default</option>
       <option value="A-Z">A - Z</option>
       <option value="Z-A">Z - A</option>
