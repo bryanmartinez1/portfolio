@@ -47,6 +47,8 @@ export default function Projects({ nightMode }) {
     "MatLab",
     "ModelSim",
     "React",
+    "Youtube",
+    "TikTok",
   ];
 
   const projectTypeFilter = ["Internship", "Personal", "School", "Work"];

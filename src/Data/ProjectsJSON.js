@@ -75,12 +75,12 @@ const projectsJSON = [
       "Apart of the Create Competition",
       "Users will be able to record and create video resumes, interact and contact other users, and view other users' video resumes and profiles",
     ],
-    toolsList: ["JavaScript", "React", "Firebase", "AmazonS3"],
+    toolsList: ["JavaScript", "React", "Firebase", "AmazonS3", "Youtube"],
   },
   {
     index: 1,
     name: "WrestleKnow",
-    toolsList: ["JavaScript", "React", "Parse Back4App", "Firebase"],
+    toolsList: ["JavaScript", "React", "Parse Back4App", "Firebase", "Youtube"],
     link: [
       { name: "GitHub", href: "https://github.com/bryanmartinez1/WrestleKnow" },
     ],
@@ -132,7 +132,7 @@ const projectsJSON = [
   {
     index: 4,
     name: "Atlassian Software Engineer Intern",
-    toolsList: ["JavaScript", "TypeScript", "Python"],
+    toolsList: ["JavaScript", "TypeScript", "Python", "Loom", "Slack"],
     link: [{ name: "Atlassian", href: "https://www.atlassian.com/" }],
     date: "May 2023 - August 2023",
     type: "Internship",
@@ -164,7 +164,7 @@ const projectsJSON = [
   {
     index: 6,
     name: "Rank",
-    toolsList: ["JavaScript", "React"],
+    toolsList: ["JavaScript", "React", "Firebase"],
     link: [{ name: "GitHub", href: "https://github.com/bryanmartinez1/rank" }],
     date: "May 2023 - December 2023",
     type: "Personal",
@@ -481,7 +481,7 @@ const projectsJSON = [
   {
     index: 22,
     name: "Youtube Channel",
-    toolsList: [],
+    toolsList: ["Youtube"],
     link: [
       {
         name: "Channel 1",
@@ -503,8 +503,8 @@ const projectsJSON = [
   },
   {
     index: 23,
-    name: "Tik Tok",
-    toolsList: [],
+    name: "TikTok",
+    toolsList: ["TikTok"],
     link: [
       {
         name: "Channel 1",
@@ -542,7 +542,7 @@ const projectsJSON = [
   {
     index: 25,
     name: "Ardino",
-    toolsList: [],
+    toolsList: ["C++"],
     link: [
       {
         name: "Project 1",
@@ -557,7 +557,7 @@ const projectsJSON = [
   {
     index: 26,
     name: "Rust",
-    toolsList: ["rust"],
+    toolsList: ["Rust"],
     link: [
       {
         name: "Project 1",
