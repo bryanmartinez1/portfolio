@@ -39,6 +39,7 @@ import wwe from "../Images/wwe.png";
 import wrestleMania from "../Images/WrestleMania.png";
 import marvel from "../Images/marvel.png";
 import dc_comics from "../Images/dc_comics.png";
+import google_maps from "../Images/google_maps.png";
 
 const projectsJSON = [
   {
@@ -869,7 +870,7 @@ const projectsJSON = [
     ],
     date: "",
     type: "Personal",
-    image: dc_comics,
+    image: google_maps,
     description: ["DC Comics"],
   },
 ];
