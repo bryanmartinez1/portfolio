@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import "./Projects.css";
 import projectsJSON from "../../Data/ProjectsJSON.js";
 import Card from "./Components/Card/Card";
@@ -21,10 +21,6 @@ export default function Projects({ nightMode }) {
   const changeSort = (newSort) => {
     setSort(newSort);
   };
-
-  // useEffect(() => {
-  //   // Add code here to filter projects whenever selectedLanguage changes
-  // }, [selectedLanguage]);
 
   const langaugeFilter = [
     "Assembly",

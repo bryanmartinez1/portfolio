@@ -40,6 +40,8 @@ import wrestleMania from "../Images/WrestleMania.png";
 import marvel from "../Images/marvel.png";
 import dc_comics from "../Images/dc_comics.png";
 import google_maps from "../Images/google_maps.png";
+import leetCode from "../Images/leetcode.png";
+import robotics from "../Images/robotics.png";
 
 const projectsJSON = [
   {
@@ -872,6 +874,37 @@ const projectsJSON = [
     type: "Personal",
     image: google_maps,
     description: ["DC Comics"],
+  },
+  {
+    index: 44,
+    name: "LeetCode",
+    toolsList: ["LeetCode", "Python", "C++", "Youtube"],
+    link: [
+      {
+        name: "LeetCode",
+        href: "https://www.leetcode.com/",
+      },
+    ],
+    date: "",
+    type: "Personal",
+    image: leetCode,
+    description: ["LeetCode"],
+  },
+
+  {
+    index: 45,
+    name: "Robotics",
+    toolsList: [],
+    link: [
+      {
+        name: "LeetCode",
+        href: "https://www.leetcode.com/",
+      },
+    ],
+    date: "",
+    type: "Personal",
+    image: robotics,
+    description: ["Robotics"],
   },
 ];
 
