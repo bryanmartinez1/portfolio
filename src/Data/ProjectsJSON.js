@@ -75,12 +75,12 @@ const projectsJSON = [
       "Apart of the Create Competition",
       "Users will be able to record and create video resumes, interact and contact other users, and view other users' video resumes and profiles",
     ],
-    toolsList: ["Javascript", "React", "Firebase", "AmazonS3"],
+    toolsList: ["JavaScript", "React", "Firebase", "AmazonS3"],
   },
   {
     index: 1,
     name: "WrestleKnow",
-    toolsList: ["Javascript", "React", "Parse Back4App", "Firebase"],
+    toolsList: ["JavaScript", "React", "Parse Back4App", "Firebase"],
     link: [
       { name: "GitHub", href: "https://github.com/bryanmartinez1/WrestleKnow" },
     ],
@@ -111,7 +111,7 @@ const projectsJSON = [
   {
     index: 3,
     name: "Lasso",
-    toolsList: ["Javascript", "React", "Back4App"],
+    toolsList: ["JavaScript", "React", "Back4App"],
     link: [
       { name: "GitHub", href: "https://github.com/bryanmartinez1/Lasso" },
       {
@@ -132,7 +132,7 @@ const projectsJSON = [
   {
     index: 4,
     name: "Atlassian Software Engineer Intern",
-    toolsList: ["Javascript", "Typescript", "Python"],
+    toolsList: ["JavaScript", "TypeScript", "Python"],
     link: [{ name: "Atlassian", href: "https://www.atlassian.com/" }],
     date: "May 2023 - August 2023",
     type: "Internship",
@@ -164,7 +164,7 @@ const projectsJSON = [
   {
     index: 6,
     name: "Rank",
-    toolsList: ["Javascript", "React"],
+    toolsList: ["JavaScript", "React"],
     link: [{ name: "GitHub", href: "https://github.com/bryanmartinez1/rank" }],
     date: "May 2023 - December 2023",
     type: "Personal",
