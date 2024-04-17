@@ -31,6 +31,7 @@ export default function Accordion(props) {
         {props.innerheading ? <h3>{props.title}</h3> : <h2>{props.title}</h2>}
       </div>
       {openAccordion && <div className="content"> {props.content} </div>}
+      <br />
     </div>
   );
 }

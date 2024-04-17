@@ -42,6 +42,10 @@ import dc_comics from "../Images/dc_comics.png";
 import google_maps from "../Images/google_maps.png";
 import leetCode from "../Images/leetcode.png";
 import robotics from "../Images/robotics.png";
+import math from "../Images/math.png";
+import perodic_table from "../Images/periodic_table.png";
+import education from "../Images/educational.png";
+import weather from "../Images/weather.png";
 
 const projectsJSON = [
   {
@@ -706,7 +710,7 @@ const projectsJSON = [
     date: "",
     type: "Personal",
     image: aew,
-    description: ["Computer Vision"],
+    description: ["This shows projects relating to AEW (All Elite Wrestling)"],
     grayBackground: true,
   },
   {
@@ -715,14 +719,16 @@ const projectsJSON = [
     toolsList: [""],
     link: [
       {
-        name: "Project 1",
-        href: "https://www.youtube.com/",
+        name: "WrestleMania",
+        href: "https://bryanmartinezportfolio.web.app/projects/40",
       },
     ],
     date: "",
     type: "Personal",
     image: wwe,
-    description: ["Computer Vision"],
+    description: [
+      "This shows projects relating to WWE (World Wrestling Entertainment)",
+    ],
   },
   {
     index: 36,
@@ -890,7 +896,6 @@ const projectsJSON = [
     image: leetCode,
     description: ["LeetCode"],
   },
-
   {
     index: 45,
     name: "Robotics",
@@ -905,6 +910,66 @@ const projectsJSON = [
     type: "Personal",
     image: robotics,
     description: ["Robotics"],
+  },
+  {
+    index: 46,
+    name: "Math",
+    toolsList: [],
+    link: [
+      {
+        name: "LeetCode",
+        href: "https://www.leetcode.com/",
+      },
+    ],
+    date: "",
+    type: "Personal",
+    image: math,
+    description: ["Math"],
+  },
+  {
+    index: 47,
+    name: "Perodic Table",
+    toolsList: [],
+    link: [
+      {
+        name: "LeetCode",
+        href: "https://www.leetcode.com/",
+      },
+    ],
+    date: "",
+    type: "Personal",
+    image: perodic_table,
+    description: ["Science"],
+  },
+  {
+    index: 48,
+    name: "Education",
+    toolsList: [],
+    link: [
+      {
+        name: "LeetCode",
+        href: "https://www.leetcode.com/",
+      },
+    ],
+    date: "",
+    type: "Personal",
+    image: education,
+    description: ["education"],
+  },
+  {
+    index: 49,
+    name: "Weather",
+    toolsList: [],
+    link: [
+      {
+        name: "LeetCode",
+        href: "https://www.leetcode.com/",
+      },
+    ],
+    date: "",
+    type: "Personal",
+    image: weather,
+    description: ["weather"],
   },
 ];
 
