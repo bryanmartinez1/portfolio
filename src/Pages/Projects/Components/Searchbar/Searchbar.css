@@ -30,6 +30,7 @@
     border: none;
     outline: none;
     flex: 1;
+    font-size: 20px;
 }
 
 .searchInput-night {
