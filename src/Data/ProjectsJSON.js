@@ -46,6 +46,7 @@ import math from "../Images/math.png";
 import perodic_table from "../Images/periodic_table.png";
 import education from "../Images/educational.png";
 import weather from "../Images/weather.png";
+import wrestling from "../Images/wrestling.png";
 
 const projectsJSON = [
   {
@@ -516,34 +517,38 @@ const projectsJSON = [
         name: "Channel 1",
         href: "https://www.youtube.com/",
       },
-      {
-        name: "Channel 2",
-        href: "https://www.youtube.com/",
-      },
-      {
-        name: "Channel 3",
-        href: "https://www.youtube.com/",
-      },
     ],
     date: "July 2024",
     type: "Personal",
     image: tiktok,
     description: ["Tik Tok"],
+    grayBackground: true,
   },
   {
     index: 24,
-    name: "Manchester United",
-    toolsList: [],
+    name: "Manchester United 2023/2024 Season",
+    toolsList: ["Python", "Google Sheets", "CSV"],
     link: [
       {
-        name: "Channel 1",
-        href: "https://www.youtube.com/",
+        name: "Github",
+        href: "https://www.github.com/",
+      },
+      {
+        name: "Datasets",
+        href: "https://docs.google.com/spreadsheets/d/1ic7V3gM9wvnCZV3e3RUmMx6ZJN0O2i7NQmCmwOhm_2k/edit?usp=sharing",
+      },
+      {
+        name: "Report",
+        href: "https://docs.google.com/document/d/1hMLarKX89Ii64CXy-BjYA4DSjPzLtBI-RBGuylqu5MY/edit?usp=sharing",
       },
     ],
-    date: "July 2024",
+    date: "April 2024",
     type: "Personal",
     image: united,
-    description: ["United"],
+    description: [
+      "An analytical and statistical analysis of Manchester United in the 2023/2024 season",
+      "Constructed two datasets, one detailing the sqauds and another detailing stats from all the matches played by United",
+    ],
   },
   {
     index: 25,
@@ -970,6 +975,43 @@ const projectsJSON = [
     type: "Personal",
     image: weather,
     description: ["weather"],
+  },
+  {
+    index: 50,
+    name: "Professional Wrestling",
+    toolsList: [
+      "Python",
+      "CSV",
+      "Google Sheets",
+      "JavaScript",
+      "React",
+      "Parse Back4App",
+      "Firebase",
+      "Youtube",
+    ],
+    link: [
+      {
+        name: "WrestleKnow",
+        href: "https://www.leetcode.com/",
+      },
+      {
+        name: "WWE",
+        href: "https://bryanmartinezportfolio.web.app/projects/35",
+      },
+      {
+        name: "AEW",
+        href: "https://bryanmartinezportfolio.web.app/projects/34",
+      },
+      {
+        name: "WrestleMania",
+        href: "https://bryanmartinezportfolio.web.app/projects/40",
+      },
+    ],
+    date: "",
+    type: "Personal",
+    image: wrestling,
+    description: ["All projects realted to professional wrestling"],
+    grayBackground: true,
   },
 ];
 
