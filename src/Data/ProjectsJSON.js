@@ -9,7 +9,7 @@ import lassoImage from "../Images/lasso.png";
 import myshipsailsImage from "../Images/myshipsails.png";
 import rankImage from "../Images/rank.png";
 import twitterImage from "../Images/twitter.png";
-import wrestleknowImage from "../Images/wrestleknow.png";
+import prowrestleknowImage from "../Images/wrestleknow.png";
 import portfolioImage from "../Images/portfolio.png";
 import cpeLab from "../Images/cpe_lab.png";
 import eeLab1 from "../Images/ee_lab_1.png";
@@ -71,6 +71,10 @@ const projectsJSON = [
         name: "Create Competetion Information",
         href: "https://www.nysid.org/create/guidelines/",
       },
+      {
+        name: "Zahn LinkedIn Winners",
+        href: "https://www.linkedin.com/posts/the-zahn-center_2024-venture-competition-winners-activity-7196268111476477952-ymZe?utm_source=share&utm_medium=member_desktop",
+      },
     ],
     date: "August 2023 - In Progress",
     type: "School",
@@ -78,22 +82,29 @@ const projectsJSON = [
     description: [
       "Inclusify is a web application focused on empowering autistic individuals and other disabled job seekers. Using technologies like REACT for the front-end, and FireBase and AmazonS3 for back-end, and Figma for design, our platform will empower users to connect, share experiences, access various resources, and build their non traditional video resumes with accessible features, fostering a sense of belonging and inclusivity within the autism community and beyond.",
       "Group Project for CSC 59866 & CSC 59867",
-      "Apart of Zahn Venture Competition",
-      "Apart of the Create Competition",
+      "WON Zahn Venture Competition in the Social Impact Track, in where we accquired $15,000, in funding",
+      "Placed in the TOP 5 of the CREATE Competition",
       "Users will be able to record and create video resumes, interact and contact other users, and view other users' video resumes and profiles",
     ],
     toolsList: ["JavaScript", "React", "Firebase", "AmazonS3", "Youtube"],
   },
   {
     index: 1,
-    name: "WrestleKnow",
-    toolsList: ["JavaScript", "React", "Parse Back4App", "Firebase", "Youtube"],
+    name: "ProWrestleKnow",
+    toolsList: [
+      "JavaScript",
+      "React",
+      "Parse Back4App",
+      "Firebase",
+      "Youtube",
+      "Python",
+    ],
     link: [
       { name: "GitHub", href: "https://github.com/bryanmartinez1/WrestleKnow" },
     ],
     date: "2023 -  2024",
     type: "Personal",
-    image: wrestleknowImage,
+    image: prowrestleknowImage,
     description: [
       "WrestleKnow is a pro wrestling encyclopedia and social media web app.",
       "Users can search through a variety of pro wrestling related categories, sign up and login, and publicly and privately converse with other users.",
@@ -159,13 +170,18 @@ const projectsJSON = [
         name: "Fuchsia Google Open Source ",
         href: "https://cs.opensource.google/fuchsia",
       },
+      {
+        name: "Google STEP Info",
+        href: "https://buildyourfuture.withgoogle.com/programs/step",
+      },
     ],
     date: "May 2021 - August 2021",
     type: "Internship",
     image: googleImage,
     description: [
-      "Group Project for CSC 59866 & CSC 59867",
-      "Apart of Zahn Competition and CREATE Competition",
+      "12-week internship program on the open-source Fuchsia Operating System",
+      "Developed a debugging tool that would aid developers with Fuchsia Driver Development",
+      "Completed entire development process, including writing design docs, implementation, and going through design review",
     ],
   },
   {
@@ -177,7 +193,7 @@ const projectsJSON = [
     type: "Personal",
     image: rankImage,
     description: [
-      "Perosdnal project",
+      "Personal project",
       "User can calculate their GPA, course grade, and QPA",
     ],
     grayBackground: true,

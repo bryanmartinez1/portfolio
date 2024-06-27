@@ -143,8 +143,8 @@ export default function Resume({ nightMode }) {
         }
       />
       <Accordion
-        nightMode={nightMode}
         id="technicalProjects"
+        nightMode={nightMode}
         title="Techical Projects"
         content={
           <>
