@@ -150,7 +150,7 @@ export default function Resume({ nightMode }) {
           <>
             <Accordion
               innerheading={true}
-              title="CSC 59866, Senior Project, Inclusify - Cloud-Based Resume Webapp, 2023 - 2024"
+              title="Inclusify - Cloud-Based Resume Webapp, August 2023 - June 2024"
               content={
                 <ul>
                   <li>Lasso is an ecommerce app like eBay</li>
@@ -163,35 +163,39 @@ export default function Resume({ nightMode }) {
                     Group project developed using an adapted version of the
                     agile methodology
                   </li>
-                  <li>Frontend: JavaScript; Framework: React</li>
-                  <li>Backend: Firebase and AmazonS3</li>
+                  <li>
+                    <b>Technical Tools:</b> JavaScript, React, Firebase,
+                    AmazonS3,
+                  </li>
                 </ul>
               }
             />
             <Accordion
               nightMode={nightMode}
               innerheading={true}
-              title="Personal Project, WrestleKnow, 2023 - 2024"
+              title="ProWrestleKnow, November 2023 - July 2024"
               content={
                 <ul>
                   <li>
-                    WrestleKnow is a pro wrestling encyclopedia and social media
-                    web app.
+                    ProWrestleKnow is a pro wrestling encyclopedia and social
+                    media web app.
                   </li>
                   <li>
                     Users can search through a variety of pro wrestling related
                     categories, sign up and login, and publicly and privately
                     converse with other users.
                   </li>
-                  <li>Frontend: JavaScript; Framework: React</li>
-                  <li>Backend: Back4App</li>
+                  <li>
+                    Techical Tools: JavaScript, React, Python, Firebase,
+                    Back4App
+                  </li>
                 </ul>
               }
             />
             <Accordion
               nightMode={nightMode}
               innerheading={true}
-              title="CodePath Android Course, Parsetagram, 2022"
+              title="Parsetagram, 2022"
               content={
                 <ul>
                   <li>Lasso is an ecommerce app like eBay</li>
@@ -204,15 +208,16 @@ export default function Resume({ nightMode }) {
                     Group project developed using an adapted version of the
                     agile methodology
                   </li>
-                  <li>Frontend: Java</li>
-                  <li>Backend: Back4App Parse</li>
+                  <li>
+                    <b>Technical Tools:</b> Java, Back4App Parse
+                  </li>
                 </ul>
               }
             />
             <Accordion
               nightMode={nightMode}
               innerheading={true}
-              title="CSC 322, Software Engineering, Lasso - Ecommerce Webapp, 2022"
+              title="Lasso - Ecommerce Webapp, 2022"
               content={
                 <ul>
                   <li>Lasso is an ecommerce app like eBay</li>
@@ -225,8 +230,9 @@ export default function Resume({ nightMode }) {
                     Group project developed using an adapted version of the
                     agile methodology
                   </li>
-                  <li>Frontend: JavaScript; Framework: React</li>
-                  <li>Backend: Back4App Parse</li>
+                  <li>
+                    <b>Technical Tools:</b> JavaScript, React, Back4App Parse
+                  </li>
                 </ul>
               }
             />
