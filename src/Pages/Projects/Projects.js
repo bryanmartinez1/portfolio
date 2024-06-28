@@ -55,7 +55,7 @@ export default function Projects({ nightMode }) {
       <div className="sortAndFilter">
         <SortDrop onChange={changeSort} nightMode={nightMode} />
         <Multiselect
-          placeholder="Select Language"
+          placeholder="Language"
           isObject={false}
           onRemove={(event) => {
             setSelectedLanguage(event);
@@ -91,7 +91,7 @@ export default function Projects({ nightMode }) {
         />
 
         <Multiselect
-          placeholder="Select Tool"
+          placeholder="Tool"
           isObject={false}
           onRemove={(event) => {
             setSelectedTool(event);
@@ -127,7 +127,7 @@ export default function Projects({ nightMode }) {
         />
 
         <Multiselect
-          placeholder="Select Project Type"
+          placeholder="Project Type"
           isObject={false}
           onRemove={(event) => {
             setSelectedProjectType(event);

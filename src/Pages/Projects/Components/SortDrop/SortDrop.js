@@ -12,7 +12,7 @@ const SortDrop = ({ onChange, nightMode }) => {
       onChange={handleSortChange}
     >
       <option disabled selected value="">
-        Sort By:
+        Sort By
       </option>
       <option value="None">Default</option>
       <option value="A-Z">A - Z</option>
