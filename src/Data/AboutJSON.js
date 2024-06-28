@@ -5,8 +5,9 @@ const about = {
     <p className="infoParagraph">
       Hello, I'm <b>Bryan</b>, a <b>Software Engineer</b> at <b>Atlassian</b>. I
       recently graduated City College of New York with a Bachelors in{" "}
-      <b>Computer Engineering</b>. I've previously interned at <b>Atlassian</b>{" "}
-      and <b>Google</b>. You can check out my projects and resume here.
+      <b>Computer Engineering</b>. I've previously interned at{" "}
+      <b className="moreBold">Atlassian</b> and <b>Google</b>. You can check out
+      my projects and resume here.
     </p>
   ),
 };

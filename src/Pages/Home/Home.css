@@ -44,8 +44,6 @@
     line-height: 30px;
 }
 
-.withBlueBG {
-    background-color:blue;
-    color: white;
-    padding: 5px;
+.moreBold {
+    font-weight:bolder;
 }
