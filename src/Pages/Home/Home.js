@@ -9,9 +9,7 @@ export default function Home({ nightMode }) {
     <div className="home">
       <div className="info">
         <img className="myPic" src={bryan} alt="Bryan" />
-        <div className="about">
-          <p>{about.info}</p>
-        </div>
+        <div className="about">{about.info}</div>
       </div>
       <div className="linksDiv">
         <HomeLink title="Resume" href="/resume" nightMode={nightMode} />
