@@ -37,7 +37,12 @@ export default function Resume({ nightMode }) {
         >
           Technical Projects
         </a>
-        <button className="download">Download PDF Verison</button>
+        <button
+          className="download"
+          style={{ color: `${!nightMode ? "inherit" : "whitesmoke"}` }}
+        >
+          Download PDF Verison
+        </button>
       </div>
       <Accordion
         id="contact"
