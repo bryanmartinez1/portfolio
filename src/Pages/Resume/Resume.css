@@ -44,3 +44,16 @@ li {
 .sectionLink:hover {
     text-decoration: underline;
 }
+
+.download {
+    font-size: 20px;
+    cursor: pointer;
+    background-color: transparent;
+    padding: 10px;
+    border: 0;
+    margin: 0;;
+}
+
+.download:hover {
+    text-decoration: underline;
+}
