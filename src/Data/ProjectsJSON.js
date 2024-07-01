@@ -305,7 +305,7 @@ const projectsJSON = [
   },
   {
     index: 12,
-    name: "Atlassian Software Engineer New Grad",
+    name: "Atlassian Software Engineer Full Time",
     toolsList: ["TBD"],
     link: [{ name: "Atlassian", href: "https://www.atlassian.com/" }],
     date: "Starting July 2024",

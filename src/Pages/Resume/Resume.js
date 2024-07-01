@@ -1,6 +1,7 @@
 import React from "react";
 import Accordion from "../../Components/Accordion";
 import "./Resume.css";
+import resumeJSON from "./Resume.json";
 
 export default function Resume({ nightMode }) {
   return (
@@ -43,7 +44,9 @@ export default function Resume({ nightMode }) {
         nightMode={nightMode}
         content={
           <ul>
-            <li>Email: bryanmartinez2401@gmail.com</li>
+            {resumeJSON.contact.map((item, index) => (
+              <li index={index}>{item}</li>
+            ))}
           </ul>
         }
       />
