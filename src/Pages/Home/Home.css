@@ -47,3 +47,8 @@
 .moreBold {
     font-weight:bolder;
 }
+
+.blueBold {
+    font-weight:bolder;
+    color: #2581ff;
+}
