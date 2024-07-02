@@ -3,7 +3,7 @@
     word-wrap: break-word;
     overflow: hidden;
     box-sizing: border-box;
-    border-top: solid rgba(0,0,0,.3);
+    border-top: solid gray;
 }
 
 .title {
