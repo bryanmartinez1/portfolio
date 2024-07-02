@@ -60,7 +60,7 @@ export default function Resume({ nightMode }) {
         title="Education"
         content={
           <ul>
-            {resumeJSON.education.map((item, index) => (
+            {resumeJSON.education.map((item) => (
               <> {item}</>
             ))}
           </ul>
@@ -81,22 +81,22 @@ export default function Resume({ nightMode }) {
         id="experience"
         title="Experience"
         content={
-          <>
+          <div className="indentRight">
             {resumeJSON.experience.map((item, index) => (
               <>{item}</>
             ))}
-          </>
+          </div>
         }
       />
       <Accordion
         id="technicalProjects"
         title="Techical Projects"
         content={
-          <>
+          <div className="indentRight">
             {resumeJSON.technicalProjects.map((item) => (
               <>{item}</>
             ))}
-          </>
+          </div>
         }
       />
     </div>

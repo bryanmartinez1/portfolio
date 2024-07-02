@@ -57,3 +57,8 @@ li {
 .download:hover {
     text-decoration: underline;
 }
+
+.indentRight {
+    padding-left: 20px;
+    box-sizing: border-box;
+}
