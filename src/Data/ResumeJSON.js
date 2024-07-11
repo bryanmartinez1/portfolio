@@ -1,4 +1,4 @@
-import Accordion from "../../Components/Accordion";
+import Accordion from "../Components/Accordion";
 
 export const resumeJSON = {
   contact: ["E-Mail: bryanmartinez2401@gmail.com"],
@@ -35,6 +35,9 @@ export const resumeJSON = {
       content={
         <ul>
           <li>TBD</li>
+          <li>
+            <b>Programming Languages:</b> TBD
+          </li>
         </ul>
       }
     />,
@@ -53,7 +56,9 @@ export const resumeJSON = {
             reviews, wrote spikes, conversed with designers to provide better
             user experience
           </li>
-          <li>Programming Languages: TypeScript, JavaScript, Python</li>
+          <li>
+            <b>Programming Languages:</b> TypeScript, JavaScript, Python
+          </li>
         </ul>
       }
     />,
@@ -74,7 +79,9 @@ export const resumeJSON = {
             Completed entire development process, including writing design docs,
             implementation, and going through design reviews
           </li>
-          <li>Programming Languages: C++ and Rust</li>
+          <li>
+            <b>Programming Languages:</b> C++ and Rust
+          </li>
         </ul>
       }
     />,
@@ -82,7 +89,7 @@ export const resumeJSON = {
   technicalProjects: [
     <Accordion
       innerheading={true}
-      title="Inclusify - Cloud-Based Resume Webapp, August 2023 - June 2024"
+      title="Inclusify, August 2023 - June 2024"
       content={
         <ul>
           <li>Lasso is an ecommerce app like eBay</li>
@@ -115,7 +122,9 @@ export const resumeJSON = {
             categories, sign up and login, and publicly and privately converse
             with other users.
           </li>
-          <li>Techical Tools: JavaScript, React, Python, Firebase, Back4App</li>
+          <li>
+            <b>Techical Tools:</b> JavaScript, React, Python, Firebase, Back4App
+          </li>
         </ul>
       }
     />,

@@ -1,7 +1,7 @@
 import React from "react";
 import Accordion from "../../Components/Accordion";
 import "./Resume.css";
-import { resumeJSON } from "./resumeJSON";
+import { resumeJSON } from "../../Data/ResumeJSON.js";
 
 export default function Resume({ nightMode }) {
   return (

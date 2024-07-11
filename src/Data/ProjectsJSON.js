@@ -23,30 +23,20 @@ import youtube from "../Images/youtube.png";
 import tiktok from "../Images/tiktok.png";
 import united from "../Images/united.png";
 import arduino from "../Images/arduino.png";
-import rust from "../Images/rust.png";
 import algorithmsDS from "../Images/algorithm.png";
 import comp_vision from "../Images/comp_vision.png";
-import aew from "../Images/AEW.png";
 import embeddedSystems from "../Images/embedded.png";
 import complier from "../Images/complier.png";
 import dataVisual from "../Images/data_visualization.png";
 import discord from "../Images/discord_bot.png";
 import games from "../Images/games.png";
-import kaggle from "../Images/kaggle.png";
 import mta from "../Images/MTA.png";
-import scraper from "../Images/scraper.png";
-import wwe from "../Images/wwe.png";
 import wrestleMania from "../Images/WrestleMania.png";
 import marvel from "../Images/marvel.png";
 import dc_comics from "../Images/dc_comics.png";
-import google_maps from "../Images/google_maps.png";
 import leetCode from "../Images/leetcode.png";
-import robotics from "../Images/robotics.png";
 import math from "../Images/math.png";
-import perodic_table from "../Images/periodic_table.png";
-import education from "../Images/educational.png";
 import weather from "../Images/weather.png";
-import wrestling from "../Images/wrestling.png";
 
 const projectsJSON = [
   {
@@ -526,22 +516,6 @@ const projectsJSON = [
   },
   {
     index: 23,
-    name: "TikTok",
-    toolsList: ["TikTok"],
-    link: [
-      {
-        name: "Channel 1",
-        href: "https://www.youtube.com/",
-      },
-    ],
-    date: "July 2024",
-    type: "Personal",
-    image: tiktok,
-    description: ["Tik Tok"],
-    grayBackground: true,
-  },
-  {
-    index: 24,
     name: "Manchester United 2023/2024 Season",
     toolsList: ["Python", "Google Sheets", "CSV"],
     link: [
@@ -567,7 +541,7 @@ const projectsJSON = [
     ],
   },
   {
-    index: 25,
+    index: 24,
     name: "Ardino",
     toolsList: ["C++"],
     link: [
@@ -582,22 +556,7 @@ const projectsJSON = [
     description: ["United"],
   },
   {
-    index: 26,
-    name: "Rust",
-    toolsList: ["Rust"],
-    link: [
-      {
-        name: "Project 1",
-        href: "https://www.youtube.com/",
-      },
-    ],
-    date: "",
-    type: "Personal",
-    image: rust,
-    description: ["United"],
-  },
-  {
-    index: 27,
+    index: 25,
     name: "Algorithms and Data Structures",
     toolsList: [""],
     link: [
@@ -613,7 +572,7 @@ const projectsJSON = [
     grayBackground: true,
   },
   {
-    index: 28,
+    index: 26,
     name: "Computer Vision",
     toolsList: [""],
     link: [
@@ -629,7 +588,7 @@ const projectsJSON = [
     grayBackground: true,
   },
   {
-    index: 29,
+    index: 27,
     name: "Embedded Systems",
     toolsList: [""],
     link: [
@@ -658,7 +617,7 @@ const projectsJSON = [
     grayBackground: true,
   },
   {
-    index: 30,
+    index: 28,
     name: "Complier",
     toolsList: [""],
     link: [
@@ -673,7 +632,7 @@ const projectsJSON = [
     description: ["Computer Vision"],
   },
   {
-    index: 31,
+    index: 29,
     name: "Data Visualizations",
     toolsList: [""],
     link: [
@@ -688,7 +647,7 @@ const projectsJSON = [
     description: ["Computer Vision"],
   },
   {
-    index: 32,
+    index: 30,
     name: "Discord Bot",
     toolsList: [""],
     link: [
@@ -703,7 +662,7 @@ const projectsJSON = [
     description: ["Computer Vision"],
   },
   {
-    index: 33,
+    index: 31,
     name: "Games",
     toolsList: [""],
     link: [
@@ -719,55 +678,7 @@ const projectsJSON = [
     grayBackground: true,
   },
   {
-    index: 34,
-    name: "AEW",
-    toolsList: [""],
-    link: [
-      {
-        name: "Project 1",
-        href: "https://www.youtube.com/",
-      },
-    ],
-    date: "",
-    type: "Personal",
-    image: aew,
-    description: ["This shows projects relating to AEW (All Elite Wrestling)"],
-    grayBackground: true,
-  },
-  {
-    index: 35,
-    name: "WWE",
-    toolsList: [""],
-    link: [
-      {
-        name: "WrestleMania",
-        href: "https://bryanmartinezportfolio.web.app/projects/40",
-      },
-    ],
-    date: "",
-    type: "Personal",
-    image: wwe,
-    description: [
-      "This shows projects relating to WWE (World Wrestling Entertainment)",
-    ],
-  },
-  {
-    index: 36,
-    name: "Kaggle",
-    toolsList: [""],
-    link: [
-      {
-        name: "Project 1",
-        href: "https://www.youtube.com/",
-      },
-    ],
-    date: "",
-    type: "Personal",
-    image: kaggle,
-    description: ["Computer Vision"],
-  },
-  {
-    index: 37,
+    index: 32,
     name: "MTA",
     toolsList: [""],
     link: [
@@ -783,23 +694,7 @@ const projectsJSON = [
     grayBackground: true,
   },
   {
-    index: 38,
-    name: "Web Scraper",
-    toolsList: [""],
-    link: [
-      {
-        name: "Project 1",
-        href: "https://www.youtube.com/",
-      },
-    ],
-    date: "",
-    type: "Personal",
-    image: scraper,
-    description: ["Computer Vision"],
-    grayBackground: true,
-  },
-  {
-    index: 39,
+    index: 33,
     name: "Electrical Engineering",
     toolsList: ["C++", "Assembly", "MatLab", "Electric", "LTSpice"],
     link: [{ name: "CCNY Website", href: "https://www.ccny.cuny.edu/" }],
@@ -825,7 +720,7 @@ const projectsJSON = [
     ],
   },
   {
-    index: 40,
+    index: 34,
     name: "WrestleMania",
     toolsList: ["Sheets", "Python"],
     link: [
@@ -858,7 +753,7 @@ const projectsJSON = [
     grayBackground: true,
   },
   {
-    index: 41,
+    index: 35,
     name: "Marvel",
     toolsList: ["Marvel API"],
     link: [
@@ -873,7 +768,7 @@ const projectsJSON = [
     description: ["Marvel"],
   },
   {
-    index: 42,
+    index: 36,
     name: "DC Comics",
     toolsList: ["IDK"],
     link: [
@@ -888,22 +783,7 @@ const projectsJSON = [
     description: ["DC Comics"],
   },
   {
-    index: 43,
-    name: "Google Maps",
-    toolsList: ["Google Maps API"],
-    link: [
-      {
-        name: "Google Maps API",
-        href: "https://www.google.com/maps/",
-      },
-    ],
-    date: "",
-    type: "Personal",
-    image: google_maps,
-    description: ["DC Comics"],
-  },
-  {
-    index: 44,
+    index: 37,
     name: "LeetCode",
     toolsList: ["LeetCode", "Python", "C++", "Youtube"],
     link: [
@@ -918,22 +798,7 @@ const projectsJSON = [
     description: ["LeetCode"],
   },
   {
-    index: 45,
-    name: "Robotics",
-    toolsList: [],
-    link: [
-      {
-        name: "LeetCode",
-        href: "https://www.leetcode.com/",
-      },
-    ],
-    date: "",
-    type: "Personal",
-    image: robotics,
-    description: ["Robotics"],
-  },
-  {
-    index: 46,
+    index: 38,
     name: "Math",
     toolsList: [],
     link: [
@@ -948,37 +813,7 @@ const projectsJSON = [
     description: ["Math"],
   },
   {
-    index: 47,
-    name: "Perodic Table",
-    toolsList: [],
-    link: [
-      {
-        name: "LeetCode",
-        href: "https://www.leetcode.com/",
-      },
-    ],
-    date: "",
-    type: "Personal",
-    image: perodic_table,
-    description: ["Science"],
-  },
-  {
-    index: 48,
-    name: "Education",
-    toolsList: [],
-    link: [
-      {
-        name: "LeetCode",
-        href: "https://www.leetcode.com/",
-      },
-    ],
-    date: "",
-    type: "Personal",
-    image: education,
-    description: ["education"],
-  },
-  {
-    index: 49,
+    index: 39,
     name: "Weather",
     toolsList: [],
     link: [
@@ -993,40 +828,19 @@ const projectsJSON = [
     description: ["weather"],
   },
   {
-    index: 50,
-    name: "Professional Wrestling",
-    toolsList: [
-      "Python",
-      "CSV",
-      "Google Sheets",
-      "JavaScript",
-      "React",
-      "Parse Back4App",
-      "Firebase",
-      "Youtube",
-    ],
+    index: 40,
+    name: "TikTok",
+    toolsList: ["TikTok"],
     link: [
       {
-        name: "WrestleKnow",
-        href: "https://www.leetcode.com/",
-      },
-      {
-        name: "WWE",
-        href: "https://bryanmartinezportfolio.web.app/projects/35",
-      },
-      {
-        name: "AEW",
-        href: "https://bryanmartinezportfolio.web.app/projects/34",
-      },
-      {
-        name: "WrestleMania",
-        href: "https://bryanmartinezportfolio.web.app/projects/40",
+        name: "TikTok",
+        href: "https://www.tiktok.com/",
       },
     ],
     date: "",
     type: "Personal",
-    image: wrestling,
-    description: ["All projects realted to professional wrestling"],
+    image: tiktok,
+    description: ["tiktok"],
     grayBackground: true,
   },
 ];
