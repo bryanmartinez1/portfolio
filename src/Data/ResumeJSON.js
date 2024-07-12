@@ -1,8 +1,16 @@
-import Accordion from "../Components/Accordion";
+import Accordion from "../Components/Accordion/Accordion.js";
 
 export const resumeJSON = {
   contact: ["E-Mail: bryanmartinez2401@gmail.com"],
   education: [
+    <li>
+      <b>
+        City College of New York, Computer Engineering, Bachelors of Engineering
+      </b>
+      <ul>
+        <li>July 2019 - May 2024</li>
+      </ul>
+    </li>,
     <li>Computer Science Courses</li>,
     <ul>
       <li>

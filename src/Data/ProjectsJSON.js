@@ -72,7 +72,7 @@ const projectsJSON = [
     description: [
       "Inclusify is a web application focused on empowering autistic individuals and other disabled job seekers. Using technologies like REACT for the front-end, and FireBase and AmazonS3 for back-end, and Figma for design, our platform will empower users to connect, share experiences, access various resources, and build their non traditional video resumes with accessible features, fostering a sense of belonging and inclusivity within the autism community and beyond.",
       "Group Project for CSC 59866 & CSC 59867",
-      "WON Zahn Venture Competition in the Social Impact Track, in where we accquired $15,000, in funding",
+      `WON Zahn Venture Competition in the Social Impact Track, in where we accquired $15,000 in funding`,
       "Placed in the TOP 5 of the CREATE Competition",
       "Users will be able to record and create video resumes, interact and contact other users, and view other users' video resumes and profiles",
     ],
