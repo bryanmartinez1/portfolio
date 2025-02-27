@@ -24,7 +24,7 @@ function App() {
             element={<Projects nightMode={nightMode} />}
           />
           <Route
-            path="/projects/:projectID"
+            path="/projects/:alias"
             element={<SpecificProject nightMode={nightMode} />}
           />
         </Routes>

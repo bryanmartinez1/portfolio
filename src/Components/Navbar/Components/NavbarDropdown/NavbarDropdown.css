@@ -1,0 +1,39 @@
+.three-lines {
+    height: 20px;
+    cursor: pointer;
+}
+
+.navbar-dropdown-container {
+    position: relative;
+    display: inline-block;
+}
+  
+.dropdown-content {
+    display: block;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    width: 90px;
+    background-color: white;
+    box-shadow: 2px 2px 5px 1px rgba(0,0,0,.8);
+    z-index: 1;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.dropdown-content-night {
+    background-color: #414141;
+}
+  
+.navBarPara {
+    cursor: pointer;
+    box-sizing: border-box;
+    padding: 5px;
+    font-size: 20px;
+    border-radius: 5px;
+}
+.navBarPara:hover {
+    background-color: gray;
+    font-weight: bold;
+}
+  

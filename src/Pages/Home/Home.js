@@ -16,20 +16,24 @@ export default function Home({ nightMode }) {
         <HomeLink title="Projects" href="/projects" nightMode={nightMode} />
         <HomeLink
           title="Atlassian SWE New Grad"
-          href="/projects/12"
+          href="/projects/atlassian_software_engineer"
           nightMode={nightMode}
         />
         <HomeLink
           title="Atlassian SWE Internship"
-          href="/projects/4"
+          href="/projects/atlassian-swe-intern"
           nightMode={nightMode}
         />
         <HomeLink
           title="Google STEP Internship"
-          href="/projects/5"
+          href="/projects/google-step-intern"
           nightMode={nightMode}
         />
-        <HomeLink title="Inclusify" href="/projects/0" nightMode={nightMode} />
+        <HomeLink
+          title="Inclusify"
+          href="/projects/inclusify"
+          nightMode={nightMode}
+        />
       </div>
     </div>
   );

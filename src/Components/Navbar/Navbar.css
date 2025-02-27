@@ -1,0 +1,80 @@
+.navbar {
+    width: 100%;
+    height: 50px;
+    background-color: transparent;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 2px 2px 5px 1px rgba(0,0,0,.8);
+    margin-bottom: 10px;
+    padding-right: 10px;
+    box-sizing: border-box;
+}
+
+.navbar-night {
+    box-shadow: 2px 2px 5px 1px rgba(255,255,255,.8);
+}
+
+.name {
+    font-size: 30px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.links {
+    display: flex;
+    flex-direction: row;
+    gap:24px;
+    align-items: center;
+}
+
+.wordLinks {
+    flex: 1;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.wordLinks:hover {
+    text-decoration: underline;
+}
+
+.imgLinks {
+    height: 25px;
+    cursor: pointer;
+}
+
+.imgLinks:hover {
+    background-color: #8d8d8d;
+}
+
+.imgLinksNight:hover {
+    background-color: whitesmoke;
+}
+
+.imgGithub:hover {
+    border-radius: 100%;
+    background-color: #121212;
+}
+
+.imgLinkedin {
+    border-radius: 5px;
+}
+
+.imgLinkedin:hover {
+    background-color: #414141;
+}
+
+.imgLinkedinNight:hover {
+    background-color: whitesmoke;
+}
+
+.imgGithubNight:hover {
+    border-radius: 100%;
+    background-color: white;
+}
+
+.navbar-content {
+    display: flex;
+    flex-direction: row;
+}
