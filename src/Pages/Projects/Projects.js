@@ -17,7 +17,6 @@ export default function Projects({ nightMode }) {
         );
         const data = await response.json();
         setProjectsJSON(data);
-        console.log(data);
       } catch (error) {
         console.error("Error fetching projects JSON:", error);
       }
