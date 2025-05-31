@@ -1,7 +1,7 @@
-import React from "react";
 import "./ToggleSwitch.css";
-import lightModeIMG from "../../../../Images/lightMode.png";
-import nightModeIMG from "../../../../Images/nightMode.png";
+import lightModeIMG from "../../../../Images/light_mode.png";
+import nightModeIMG from "../../../../Images/night_mode.png";
+console.log("abc");
 
 export default function ToggleSwitch({ nightMode, toggleNightMode }) {
   return (

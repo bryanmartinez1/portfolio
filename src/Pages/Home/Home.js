@@ -1,4 +1,3 @@
-import React from "react";
 import "./Home.css";
 import bryan from "../../Images/bryan.png";
 import about from "../../Data/AboutJSON.js";

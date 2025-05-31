@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import "./Accordion.css";
 
 export default function Accordion(props) {

@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import "./NavbarDropdown.css";
 import navbardropdown from "../../../Images/navbar_dropdown.png";
 import navbardropdownwhite from "../../../Images/navbar_dropdown_white.png";

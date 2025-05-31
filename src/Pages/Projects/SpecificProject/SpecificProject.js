@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import "./SpecificProject.css";
 import empty_folder from "../../../Images/empty_folder.png";
