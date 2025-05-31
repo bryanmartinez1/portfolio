@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import "./App.css";
 import { Route, Routes } from "react-router-dom";
 import Navbar from "./Navbar/Navbar";
@@ -8,10 +8,18 @@ import Resume from "./Pages/Resume/Resume";
 import SpecificProject from "./Pages/Projects/SpecificProject/SpecificProject";
 
 function App() {
-  const [nightMode, setNightMode] = useState(false);
+  const [nightMode, setNightMode] = useState(() => {
+    const nightModeValue = localStorage.getItem("nightMode");
+    return nightModeValue || true;
+  });
   const toggleNightMode = () => {
     setNightMode(!nightMode);
   };
+
+  useEffect(() => {
+    localStorage.setItem("nightMode", nightMode);
+  }, [nightMode]);
+
   return (
     <div className={`MyApp ${nightMode && "MyAppNight"}`}>
       <Navbar nightMode={nightMode} toggleNightMode={toggleNightMode} />
