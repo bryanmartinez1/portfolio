@@ -10,14 +10,15 @@ import SpecificProject from "./Pages/Projects/SpecificProject/SpecificProject";
 function App() {
   const [nightMode, setNightMode] = useState(() => {
     const nightModeValue = localStorage.getItem("nightMode");
-    return nightModeValue || false;
+    return nightModeValue === "true";
   });
+
   const toggleNightMode = () => {
-    setNightMode(!nightMode);
+    setNightMode((prev) => !prev);
   };
 
   useEffect(() => {
-    localStorage.setItem("nightMode", nightMode);
+    localStorage.setItem("nightMode", nightMode.toString());
   }, [nightMode]);
 
   return (
