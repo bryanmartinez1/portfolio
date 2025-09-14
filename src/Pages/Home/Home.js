@@ -14,7 +14,7 @@ export default function Home({ nightMode }) {
         <HomeLink title="Resume" href="/resume" nightMode={nightMode} />
         <HomeLink title="Projects" href="/projects" nightMode={nightMode} />
         <HomeLink
-          title="Atlassian SWE New Grad"
+          title="Atlassian Software Engineer"
           href="/projects/atlassian_software_engineer"
           nightMode={nightMode}
         />

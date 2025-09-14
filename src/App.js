@@ -10,7 +10,7 @@ import SpecificProject from "./Pages/Projects/SpecificProject/SpecificProject";
 function App() {
   const [nightMode, setNightMode] = useState(() => {
     const nightModeValue = localStorage.getItem("nightMode");
-    return nightModeValue || true;
+    return nightModeValue || false;
   });
   const toggleNightMode = () => {
     setNightMode(!nightMode);
