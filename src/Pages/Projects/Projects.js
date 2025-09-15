@@ -55,9 +55,11 @@ export default function Projects({ nightMode }) {
       </div>
 
       <div className="cardHolder">
-        {filteredProjects.map((project, index) => (
-          <Card key={index} cardJSON={project} nightMode={nightMode} />
-        ))}
+        {filteredProjects
+          .filter((project) => !project.is_hidden)
+          .map((project, index) => (
+            <Card key={index} cardJSON={project} nightMode={nightMode} />
+          ))}
       </div>
     </div>
   );
