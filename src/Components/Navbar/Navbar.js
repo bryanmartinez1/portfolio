@@ -60,7 +60,7 @@ export default function Navbar({ nightMode, toggleNightMode }) {
               alt="Linkedin"
               onClick={() =>
                 window.open(
-                  "https://www.linkedin.com/in/bryan-martinez-10a377221/",
+                  "https://www.linkedin.com/in/bryanrmartinez/",
                   "_blank"
                 )
               }
