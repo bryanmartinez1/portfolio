@@ -39,7 +39,7 @@ export default function Projects({ nightMode }) {
       }
     });
 
-    return Array.from(set);
+    return Array.from(set).sort();
   };
 
   const handleSearch = (result) => {
@@ -76,7 +76,7 @@ export default function Projects({ nightMode }) {
       <div className="sortAndFilter">
         <SortDrop onChange={changeSort} nightMode={nightMode} />
         <Multiselect
-          placeholder="Language"
+          placeholder="Tech Stack"
           isObject={false}
           onRemove={(event) => {
             setSelectedTechStack(event);
