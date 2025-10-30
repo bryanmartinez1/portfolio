@@ -53,48 +53,49 @@ export default function SpecificProject({ nightMode }) {
       />
       <p>{project.date}</p>
       <p className="type">{project.type}</p>
+      <div className="specficProjectInfo">
+        {project.description.length > 0 && (
+          <>
+            <h2 className="secondHeading">Description</h2>
+            <ul className="unorderedList">
+              {project.description.map((info, key) => (
+                <li key={key}>{info}</li>
+              ))}
+            </ul>
+          </>
+        )}
 
-      {project.description.length > 0 && (
-        <>
-          <h2 className="secondHeading">Description</h2>
-          <ul className="unorderedList">
-            {project.description.map((info, key) => (
-              <li key={key}>{info}</li>
-            ))}
-          </ul>
-        </>
-      )}
+        {project.link.length > 0 && (
+          <>
+            <h2 className="secondHeading">Links</h2>
+            <ul className="unorderedList">
+              {project.link.map((specificLink, index) => (
+                <li key={index}>
+                  <a
+                    href={specificLink.href}
+                    target="_blank"
+                    className="anchor"
+                    rel="noreferrer"
+                  >
+                    {specificLink.name}
+                  </a>
+                </li>
+              ))}
+            </ul>
+          </>
+        )}
 
-      {project.link.length > 0 && (
-        <>
-          <h2 className="secondHeading">Links</h2>
-          <ul className="unorderedList">
-            {project.link.map((specificLink, index) => (
-              <li key={index}>
-                <a
-                  href={specificLink.href}
-                  target="_blank"
-                  className="anchor"
-                  rel="noreferrer"
-                >
-                  {specificLink.name}
-                </a>
-              </li>
-            ))}
-          </ul>
-        </>
-      )}
-
-      {project.toolsList.length > 0 && (
-        <>
-          <h2 className="secondHeading">Tools</h2>
-          <ul className="unorderedList">
-            {project.toolsList.map((tool, index) => (
-              <li key={index}>{tool}</li>
-            ))}
-          </ul>
-        </>
-      )}
+        {project.toolsList.length > 0 && (
+          <>
+            <h2 className="secondHeading">Tools</h2>
+            <ul className="unorderedList">
+              {project.toolsList.map((tool, index) => (
+                <li key={index}>{tool}</li>
+              ))}
+            </ul>
+          </>
+        )}
+      </div>
     </section>
   );
 }
